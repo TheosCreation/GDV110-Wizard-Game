@@ -1,5 +1,5 @@
 
-left = keyboard_check_released(ord("A"))
-right = keyboard_check_released(ord("D"))
-up = keyboard_unset_map()
-down = keyboard_check_released(ord("S"))
+left = keyboard_check(ord("A"))
+right = keyboard_check(ord("D"))
+up = keyboard_check(ord("W"))
+down = keyboard_check(ord("S"))
