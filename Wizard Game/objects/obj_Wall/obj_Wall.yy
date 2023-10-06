@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object1",
+  "name": "obj_Wall",
   "spriteId": null,
   "solid": false,
   "visible": true,
