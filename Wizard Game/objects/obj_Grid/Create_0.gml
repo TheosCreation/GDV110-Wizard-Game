@@ -1,6 +1,6 @@
 
 alpha = 0.8;
-drawGrid = true;
+drawGrid = false;
 
 //spawn grid
 
