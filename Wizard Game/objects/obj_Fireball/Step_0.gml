@@ -1,3 +1,4 @@
+
 direction = point_direction(originalX,originalY,TileXPos,TileYPos);
 speed = BulletSpeed;
 image_angle = direction;

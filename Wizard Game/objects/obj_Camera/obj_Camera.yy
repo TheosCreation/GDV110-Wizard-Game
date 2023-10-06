@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Fireball",
-  "spriteId": {
-    "name": "spr_Fireball",
-    "path": "sprites/spr_Fireball/spr_Fireball.yy",
-  },
+  "name": "obj_Camera",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
