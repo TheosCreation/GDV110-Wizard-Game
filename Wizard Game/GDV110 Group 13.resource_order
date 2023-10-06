@@ -1,0 +1,8 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_Fireball","order":2,"path":"objects/obj_Fireball/obj_Fireball.yy",},
+    {"name":"obj_Wand","order":1,"path":"objects/obj_Wand/obj_Wand.yy",},
+    {"name":"spr_Fireball","order":1,"path":"sprites/spr_Fireball/spr_Fireball.yy",},
+  ],
+}
