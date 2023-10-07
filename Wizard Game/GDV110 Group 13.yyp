@@ -18,6 +18,7 @@
     {"id":{"name":"spr_TestEnemy","path":"sprites/spr_TestEnemy/spr_TestEnemy.yy",},"order":7,},
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},"order":1,},
     {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},"order":6,},
+    {"id":{"name":"scr_Move","path":"scripts/scr_Move/scr_Move.yy",},"order":1,},
     {"id":{"name":"obj_Fireball","path":"objects/obj_Fireball/obj_Fireball.yy",},"order":5,},
     {"id":{"name":"spr_Wand","path":"sprites/spr_Wand/spr_Wand.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
