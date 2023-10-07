@@ -1,5 +1,6 @@
 
 depth = -300;
 
-canMove = true;
+MoveDistance = 16;
 turn = 0;
+CanMoveCD = 10;
