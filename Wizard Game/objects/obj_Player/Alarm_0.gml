@@ -1,2 +1,1 @@
-
-canMove = true;
+global.CanMove = true;

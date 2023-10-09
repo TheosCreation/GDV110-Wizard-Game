@@ -1,4 +1,8 @@
-
+left = false;
+right = false;
+up = false;
+down = false;
+shoot = false;
 left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 up = keyboard_check(ord("W"));
