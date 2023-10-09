@@ -1,5 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/*
 function scr_Move(_MoveDirection,_initX,_initY){
 
 	//up will go up, down will go down, left with go left, right will go right
@@ -21,4 +22,24 @@ function scr_Move(_MoveDirection,_initX,_initY){
 			break;
 	}
 	//check if the certain alarm is true, player will start alarm, alarm will recurse untill finished 
+}
+*/
+function scr_Move(dir){
+	var components = global.components[dir];
+	var dx = components[0];
+	var dy = components[1];
+	if(state == states.idle) {
+		if!(tilemap_get(tile_map, xPos + dx, yPos + dy)) {
+			previousTileX = xPos;
+			previousTileY = yPos;
+			
+			nextTileX = xPos + dx;
+			nextTileY = yPos + dy;
+			
+			xPos = nextTileX;
+			yPos = nextTileY;
+			
+			state = states.walking;
+		}
+	}
 }
