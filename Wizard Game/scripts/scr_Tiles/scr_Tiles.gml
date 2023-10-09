@@ -11,6 +11,7 @@ enum directions {
 	down
 }
 
+//movements
 global.components = [];
 global.components[directions.right] = [1, 0];
 global.components[directions.up] = [0, -1];

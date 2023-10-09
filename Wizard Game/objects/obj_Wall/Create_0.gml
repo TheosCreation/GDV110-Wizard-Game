@@ -1,2 +1,0 @@
-
-global.TileType = 1;
