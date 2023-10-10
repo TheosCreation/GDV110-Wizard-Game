@@ -5,7 +5,11 @@
 
 //pretty much all copied from player xdxd
 Moved = false;
-MoveSpeed = 2;
+
+MoveSpeed = 1;
+MoveCount = 0;
+//this is how many breaks it will have.
+
 MoveCountdown = 20;
 
 state = states.idle;
@@ -24,3 +28,4 @@ walk_anim_length = 0;
 
 tile_layer = layer_get_id("Walls");
 tile_map = layer_tilemap_get_id(tile_layer);
+
