@@ -1,6 +1,9 @@
-
+if(Health <= 0){
+	scr_Die();
+}
 state = states.idle;
-show_debug_message(MoveCount);
+show_debug_message(Health);
+
 if((!global.CanMove) && !Moved && MoveCount == 0){
 	
 	DistanceX = x- instance_find(obj_Player,0).x;
@@ -37,6 +40,11 @@ else if((!global.CanMove) && !Moved && MoveCount != 0){
 	alarm[0] = MoveCountdown;
 }
 
-
+//take damage code invul frames and stuff
+if(OldHealth > Health && !Invulnerable){
+	Invulnerable = true;
+	alarm[1] = 20;
+	image_blend = c_aqua;
+}
 
 	

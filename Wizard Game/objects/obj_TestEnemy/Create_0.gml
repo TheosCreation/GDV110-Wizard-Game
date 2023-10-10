@@ -10,7 +10,7 @@ MoveSpeed = 1;
 MoveCount = 0;
 //this is how many breaks it will have.
 
-MoveCountdown = 20;
+MoveCountdown = 10;
 
 state = states.idle;
 
@@ -29,3 +29,6 @@ walk_anim_length = 0;
 tile_layer = layer_get_id("Walls");
 tile_map = layer_tilemap_get_id(tile_layer);
 
+OldHealth = 100;
+Health = 100;
+Invulnerable = false;

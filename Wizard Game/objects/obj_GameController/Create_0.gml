@@ -1,6 +1,6 @@
 global.CanMove = true;
 global.TileType = 0;
-
+global.EnemyArray = [obj_TestEnemy]
 enum states {
 	idle,
 	walking,
