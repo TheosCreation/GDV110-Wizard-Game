@@ -1,10 +1,10 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet_Ground",
+  "name": "TileSet_GroundTiles",
   "spriteId": {
-    "name": "spr_TileSet",
-    "path": "sprites/spr_TileSet/spr_TileSet.yy",
+    "name": "spr_GroundTiles",
+    "path": "sprites/spr_GroundTiles/spr_GroundTiles.yy",
   },
   "tileWidth": 64,
   "tileHeight": 64,
