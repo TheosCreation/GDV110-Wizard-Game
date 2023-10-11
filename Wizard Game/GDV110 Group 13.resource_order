@@ -1,0 +1,23 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_TestEnemy","order":7,"path":"objects/obj_TestEnemy/obj_TestEnemy.yy",},
+    {"name":"spr_Player","order":1,"path":"sprites/spr_Player/spr_Player.yy",},
+    {"name":"spr_GroundTiles","order":8,"path":"sprites/spr_GroundTiles/spr_GroundTiles.yy",},
+    {"name":"obj_Camera","order":3,"path":"objects/obj_Camera/obj_Camera.yy",},
+    {"name":"obj_Grid","order":2,"path":"objects/obj_Grid/obj_Grid.yy",},
+    {"name":"spr_WallTiles","order":9,"path":"sprites/spr_WallTiles/spr_WallTiles.yy",},
+    {"name":"TileSet_GroundTiles","order":5,"path":"tilesets/TileSet_GroundTiles/TileSet_GroundTiles.yy",},
+    {"name":"scr_EnemyMoveList","order":4,"path":"scripts/scr_EnemyMoveList/scr_EnemyMoveList.yy",},
+    {"name":"TileSet_WallTiles","order":4,"path":"tilesets/TileSet_WallTiles/TileSet_WallTiles.yy",},
+    {"name":"obj_Wand","order":4,"path":"objects/obj_Wand/obj_Wand.yy",},
+    {"name":"spr_Fireball","order":4,"path":"sprites/spr_Fireball/spr_Fireball.yy",},
+    {"name":"spr_TestEnemy","order":7,"path":"sprites/spr_TestEnemy/spr_TestEnemy.yy",},
+    {"name":"scr_Die","order":5,"path":"scripts/scr_Die/scr_Die.yy",},
+    {"name":"obj_GameController","order":6,"path":"objects/obj_GameController/obj_GameController.yy",},
+    {"name":"scr_Tiles","order":2,"path":"scripts/scr_Tiles/scr_Tiles.yy",},
+    {"name":"obj_Fireball","order":5,"path":"objects/obj_Fireball/obj_Fireball.yy",},
+    {"name":"scr_Input","order":3,"path":"scripts/scr_Input/scr_Input.yy",},
+    {"name":"spr_Wand","order":5,"path":"sprites/spr_Wand/spr_Wand.yy",},
+  ],
+}

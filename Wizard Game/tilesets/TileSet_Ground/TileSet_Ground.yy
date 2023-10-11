@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet_GroundTiles",
+  "name": "TileSet_Ground",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "spr_GroundTiles",
-    "path": "sprites/spr_GroundTiles/spr_GroundTiles.yy",
+    "name": "spr_TileSet",
+    "path": "sprites/spr_TileSet/spr_TileSet.yy",
   },
   "spriteNoExport": true,
   "textureGroupId": {
@@ -48,10 +48,10 @@
   },
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
-  "tileHeight": 64,
+  "tileHeight": 16,
   "tilehsep": 0,
   "tilevsep": 0,
-  "tileWidth": 64,
+  "tileWidth": 16,
   "tilexoff": 0,
   "tileyoff": 0,
 }
