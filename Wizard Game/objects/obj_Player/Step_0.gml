@@ -14,8 +14,8 @@ if(global.CanMove){
 		var _x = lerp(xPos, nextTileX, t);
 		var _y = lerp(yPos, nextTileY, t);
 		
-		x = _x * tile_width;
-		y = _y * tile_height;
+		x = _x * tile_width + tile_width / 2;
+		y = _y * tile_height + tile_height / 2;
 		alarm_set(0, CanMoveCD);
 		global.CanMove = false; 
 	}
