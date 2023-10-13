@@ -4,7 +4,7 @@ if(global.CanMove or state = states.walking){
 	if(state == states.walking) {
 		t += 0.1;
 	
-		show_debug_message(t);
+	
 		 x = lerp(x, nextTileX* tile_width+32, t);
 		 y = lerp(y, nextTileY* tile_height+32, t);
 		

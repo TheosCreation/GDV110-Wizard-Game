@@ -38,7 +38,7 @@ function scr_Move(dir){
 			
 			nextTileX = xPos + dx;
 			nextTileY = yPos + dy;
-			//can change this to move towards but then have to stop speed 
+			
 			
 			xPos = nextTileX;
 			yPos = nextTileY;

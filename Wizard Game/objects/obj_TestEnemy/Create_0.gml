@@ -34,3 +34,6 @@ Health = 100;
 Invulnerable = false;
 
 PlayerInRange = false;
+
+
+t = 0;

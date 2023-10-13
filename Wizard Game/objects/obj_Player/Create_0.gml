@@ -19,7 +19,6 @@ tile_map = layer_tilemap_get_id(tile_layer);
 
 //unused 
 turn = 0;
-CanMoveCD = 10;
 
 MoveSpeed = 2;
 
