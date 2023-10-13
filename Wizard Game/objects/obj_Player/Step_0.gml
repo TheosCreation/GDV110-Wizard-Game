@@ -1,23 +1,23 @@
 
-if(global.CanMove){
+if(global.CanMove or state = states.walking){
 	scr_Input();
 	if(state == states.walking) {
-		walk_anim_time += delta_time/1000000;
+		t += 0.1;
+	
+		show_debug_message(t);
+		 x = lerp(x, nextTileX* tile_width+32, t);
+		 y = lerp(y, nextTileY* tile_height+32, t);
 		
-		var t = walk_anim_time / walk_anim_length;
-		
-		if(t >= 1) {
-			walk_anim_time = 0;
-			t = 1;
-			state = states.idle;
-		}
-		var _x = lerp(xPos, nextTileX, t);
-		var _y = lerp(yPos, nextTileY, t);
-		
-		x = _x * tile_width + tile_width / 2;
-		y = _y * tile_height + tile_height / 2;
-		alarm_set(0, CanMoveCD);
+		//x = _x * tile_width + tile_width / 2;
+		//y = _y * tile_height + tile_height / 2;
 		global.CanMove = false; 
+		//alarm_set(0, CanMoveCD);		
+		if(t >= 1) {
+			t = 0;
+			state = states.idle;
+			global.CanMove = true;;
+		}
+	
 	}
 }
 

@@ -22,3 +22,5 @@ turn = 0;
 CanMoveCD = 10;
 
 MoveSpeed = 2;
+
+t = 0;
