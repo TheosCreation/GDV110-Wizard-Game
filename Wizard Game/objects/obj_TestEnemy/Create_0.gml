@@ -11,7 +11,7 @@ MoveCount = 0;
 //this is how many breaks it will have.
 
 MoveCountdown = 10;
-
+EnemyViewRange = 320;
 state = states.idle;
 
 xPos = x div tile_width;
@@ -32,3 +32,5 @@ tile_map = layer_tilemap_get_id(tile_layer);
 OldHealth = 100;
 Health = 100;
 Invulnerable = false;
+
+PlayerInRange = false;

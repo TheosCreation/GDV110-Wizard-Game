@@ -2,12 +2,15 @@ if(Health <= 0){
 	scr_Die();
 }
 state = states.idle;
-show_debug_message(Health);
 
-if((!global.CanMove) && !Moved && MoveCount == 0){
+
+DistanceX = x- instance_find(obj_Player,0).x;
+DistanceY = y-instance_find(obj_Player,0).y;
+
+PlayerInRange = (abs(DistanceX) <= EnemyViewRange and abs(DistanceY) <= EnemyViewRange )? true : false; 
+// checks if player is in range
+if((!global.CanMove) && !Moved && MoveCount == 0 && PlayerInRange){
 	
-	DistanceX = x- instance_find(obj_Player,0).x;
-	DistanceY = y-instance_find(obj_Player,0).y;
 
 	if(abs(DistanceY) > abs(DistanceX)){
 		
@@ -15,7 +18,8 @@ if((!global.CanMove) && !Moved && MoveCount == 0){
 			scr_EnemyMoveList("MoveDown")
 		}
 		else{
-		scr_EnemyMoveList("MoveUp")	
+		scr_EnemyMoveList("MoveUp")
+		
 		}
 
 	}
