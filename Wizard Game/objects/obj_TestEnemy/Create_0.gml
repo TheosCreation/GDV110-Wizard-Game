@@ -10,7 +10,7 @@ MoveCount = 0;
 //this is how many breaks it will have.
 
 MoveCountdown = 10;
-EnemyViewRange = 320;
+EnemyViewRange = 320; 
 state = states.idle;
 
 xPos = x div tile_width;

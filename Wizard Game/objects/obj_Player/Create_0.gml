@@ -17,9 +17,6 @@ walk_anim_length = 0;
 tile_layer = layer_get_id("Walls");
 tile_map = layer_tilemap_get_id(tile_layer);
 
-//unused 
-turn = 0;
-
 MoveSpeed = 2;
 
 t = 0;
