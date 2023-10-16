@@ -1,4 +1,3 @@
-
 //set to x or y depending, i would usually do scuffed ass bool but ig this is cleaner lol
 
 
@@ -36,4 +35,9 @@ Invulnerable = false;
 PlayerInRange = false;
 
 
+NextMove = "";
 t = 0;
+GoalX = 0;
+GoalY = 0;
+OldX = 0;
+OldY = 0;

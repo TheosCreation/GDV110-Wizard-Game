@@ -3,28 +3,23 @@
 function scr_EnemyMoveList(NextMove){
 switch(NextMove){
     case "MoveUp":
-
-		y = lerp(y, nextTileY*tile_height, t);	
-
-		scr_Move(directions.up);
+        t = (t<1) ? t+0.11 : 1;
+        y = lerp(OldY, GoalY, t);    
+        
     break;
     case "MoveDown":
-
-		y = lerp(y, nextTileY*tile_height, t);	
-		
-		scr_Move(directions.down);
+        t = (t<1) ? t+0.11 : 1;
+        y = lerp(OldY, GoalY, t);    
+        
     break;
     case "MoveLeft":
-		
-		x = lerp(x, nextTileX*tile_width, t);	
-	
-		scr_Move(directions.left);
+        t = (t<1) ? t+0.11 : 1;
+        x = lerp(OldX, GoalX, t);        
     break;
     case "MoveRight":
-
-		x = lerp(x, nextTileX*tile_width, t);	
-		
-		scr_Move(directions.right);
+        t = (t<1) ? t+0.11 : 1;
+        x = lerp(OldX, GoalX, t);
+        
     break;
     case "AttackUp":
 
