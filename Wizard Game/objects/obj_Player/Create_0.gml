@@ -19,7 +19,9 @@ tile_map = layer_tilemap_get_id(tile_layer);
 
 //unused 
 turn = 0;
-
 MoveSpeed = 2;
+Invulnerable = false;
+Health = 10;
+OldHealth = Health;
 
 t = 0;

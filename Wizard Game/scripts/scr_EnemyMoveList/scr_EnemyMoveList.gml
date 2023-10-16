@@ -22,14 +22,24 @@ switch(NextMove){
         
     break;
     case "AttackUp":
-
+		if(abs(DistanceY) <= EnemyAttackRange){
+			obj_Player.Health -= 1;
+		}
     break;
     case "AttackDown":
-
+		if(abs(DistanceY) <= EnemyAttackRange){
+			obj_Player.Health -= 1;
+		}
     break;
     case "AttackLeft":
+		if(abs(DistanceX) <= EnemyAttackRange){
+			obj_Player.Health -= 1;
+		}
     break;
     case "AttackRight":
+		if(abs(DistanceX) <= EnemyAttackRange){
+			obj_Player.Health -= 1;
+		}
     break;
     case "DoNothing":
     break;

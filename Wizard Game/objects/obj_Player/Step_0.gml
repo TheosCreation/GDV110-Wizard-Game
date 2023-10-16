@@ -1,4 +1,4 @@
-
+show_debug_message(Health)
 if(global.CanMove or state = states.walking){
 	scr_Input();
 	if(state == states.walking) {
@@ -21,7 +21,12 @@ if(global.CanMove or state = states.walking){
 	}
 }
 
-	
+//take damage code invul frames and stuff
+if(OldHealth > Health && !Invulnerable){
+    Invulnerable = true;
+    alarm[1] = 20;
+    image_blend = c_aqua;
+}
 
 /*	
 if (right == 1 and global.CanMove == true) {

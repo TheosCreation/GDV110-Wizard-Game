@@ -11,6 +11,7 @@ MoveCount = 0;
 
 MoveCountdown = 10;
 EnemyViewRange = 320;
+EnemyAttackRange = 64;
 state = states.idle;
 
 xPos = x div tile_width;
