@@ -1,4 +1,5 @@
 CreatedRoom = obj_Room1;
 Doors = 2;
 global.Budget -=(1);
- scr_Rooms()
+ DoorPos = [global.m_Up,global.m_Down]; 
+alarm[0] = 200; 

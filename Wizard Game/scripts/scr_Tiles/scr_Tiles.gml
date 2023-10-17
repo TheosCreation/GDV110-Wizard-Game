@@ -1,8 +1,7 @@
 
 gml_pragma("global", "scr_Tiles()");
 
-#macro tile_width 64
-#macro tile_height 64
+
 
 enum directions {
 	right,

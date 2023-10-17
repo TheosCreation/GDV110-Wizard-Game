@@ -1,4 +1,4 @@
-show_debug_message(Health)
+
 if(global.CanMove or state = states.walking){
 	scr_Input();
 	if(state == states.walking) {
