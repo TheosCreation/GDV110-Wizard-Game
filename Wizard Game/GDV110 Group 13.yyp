@@ -12,6 +12,7 @@
     {"id":{"name":"spr_Controls","path":"sprites/spr_Controls/spr_Controls.yy",},"order":11,},
     {"id":{"name":"obj_ButtonPlay","path":"objects/obj_ButtonPlay/obj_ButtonPlay.yy",},"order":2,},
     {"id":{"name":"spr_Room2","path":"sprites/spr_Room2/spr_Room2.yy",},"order":13,},
+    {"id":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},"order":4,},
     {"id":{"name":"obj_Room3","path":"objects/obj_Room3/obj_Room3.yy",},"order":12,},
     {"id":{"name":"obj_Grid","path":"objects/obj_Grid/obj_Grid.yy",},"order":1,},
     {"id":{"name":"spr_WallTiles","path":"sprites/spr_WallTiles/spr_WallTiles.yy",},"order":6,},
@@ -64,6 +65,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},
     {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
     {"roomId":{"name":"MainScreen","path":"rooms/MainScreen/MainScreen.yy",},},
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
