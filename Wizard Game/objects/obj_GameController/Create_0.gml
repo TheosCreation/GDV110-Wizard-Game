@@ -28,7 +28,7 @@ global.Rooms = [RoomArr0,RoomArr1,RoomArr2,RoomArr3];
 global.Budget = 255;
 
 
-instance_create_layer(640,640,"Rooms",global.Rooms[random_range(1,4)][0])
+//instance_create_layer(640,640,"Rooms",global.Rooms[random_range(1,4)][0])
 
 
 global.Color = 255;
