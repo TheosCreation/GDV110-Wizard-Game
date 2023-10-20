@@ -3,5 +3,5 @@
 
 
 
-draw_sprite(spr_TextBox, 0, obj_Player.x-128,obj_Player.y);
-draw_text(obj_Player.x-128,obj_Player.y, text);
+draw_sprite(spr_TextBox, 0, WandItem.x-64,WandItem.y+32);
+draw_text(WandItem.x-16,WandItem.y+64, text);
