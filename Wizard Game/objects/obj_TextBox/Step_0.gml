@@ -1,5 +1,5 @@
 
-show_debug_message(WandItem.Confirm);
+
 text = 
 string("Attack slots: {0}\nDefence slots: {1}\nUtility slots: {2}",
 string(WandItem.AttackSlots), string(WandItem.DefenceSlots) , 

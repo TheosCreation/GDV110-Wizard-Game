@@ -94,8 +94,6 @@ else if((!global.CanMove) && !Moved && MoveCount != 0){
     
 }
 
-show_debug_message(NextMove);
-
 
 //take damage code invul frames and stuff
 if(OldHealth > Health && !Invulnerable){
