@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Room5",
-  "spriteId": {
-    "name": "spr_Room5",
-    "path": "sprites/spr_Room5/spr_Room5.yy",
-  },
+  "name": "obj_TextBox",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -25,13 +22,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Objects/Rooms.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
 }

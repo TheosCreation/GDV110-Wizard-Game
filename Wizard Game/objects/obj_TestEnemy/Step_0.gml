@@ -14,7 +14,7 @@ scr_EnemyMoveList(NextMove);
 
 //current issue is with moved
 show_debug_message(NextMove);
-if((!global.CanMove) && !Moved && MoveCount == 0 && PlayerInRange){
+if((!global.CanMove) && !Moved && MoveCount == 0 && PlayerInRange && !global.GameFroze){
     if(abs(DistanceY) > abs(DistanceX)){
         
         if(sign(DistanceY) != 1){

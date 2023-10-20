@@ -22,6 +22,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_798A213B","properties":[],"isDnd":false,"objectId":{"name":"obj_Wand","path":"objects/obj_Wand/obj_Wand.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_569EF241","properties":[],"isDnd":false,"objectId":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-64.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_184ECB21","properties":[],"isDnd":false,"objectId":{"name":"obj_TestEnemy","path":"objects/obj_TestEnemy/obj_TestEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_20DC00B","properties":[],"isDnd":false,"objectId":{"name":"obj_WandItem","path":"objects/obj_WandItem/obj_WandItem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":128.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Walls","tilesetId":{"name":"TileSet_WallTiles","path":"tilesets/TileSet_WallTiles/TileSet_WallTiles.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":40,"SerialiseHeight":30,"TileCompressedData":[
 -41,-2147483648,1,15,-14,16,1,17,-24,-2147483648,1,15,-14,-2147483648,1,17,-24,-2147483648,1,15,-3,-2147483648,1,0,-10,-2147483648,1,17,-24,-2147483648,1,15,-3,-2147483648,-2,0,-4,-2147483648,-4,0,
@@ -45,6 +46,7 @@
     {"name":"inst_798A213B","path":"rooms/Game/Game.yy",},
     {"name":"inst_569EF241","path":"rooms/Game/Game.yy",},
     {"name":"inst_184ECB21","path":"rooms/Game/Game.yy",},
+    {"name":"inst_20DC00B","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

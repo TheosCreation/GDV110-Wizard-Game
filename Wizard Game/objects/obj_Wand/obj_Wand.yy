@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Wand",
   "spriteId": {
-    "name": "spr_Wand",
-    "path": "sprites/spr_Wand/spr_Wand.yy",
+    "name": "spr_BasicWand",
+    "path": "sprites/spr_BasicWand/spr_BasicWand.yy",
   },
   "solid": false,
   "visible": true,

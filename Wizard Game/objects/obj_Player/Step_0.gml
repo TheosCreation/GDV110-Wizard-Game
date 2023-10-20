@@ -1,5 +1,5 @@
 
-if(global.CanMove or state = states.walking){
+if(global.CanMove or state = states.walking && !global.GameFroze){
 	scr_Input();
 	if(state == states.walking) {
 		t += 0.1;
@@ -11,13 +11,17 @@ if(global.CanMove or state = states.walking){
 		//x = _x * tile_width + tile_width / 2;
 		//y = _y * tile_height + tile_height / 2;
 		global.CanMove = false; 
-		//alarm_set(0, CanMoveCD);		
+				
 		if(t >= 1) {
 			t = 0;
 			state = states.idle;
 			global.CanMove = true;;
 		}
-	
+	}
+	else if(state == states.attacking){
+		instance_create_layer(x,y,"Instances",obj_Fireball);
+		global.CanMove = false; 
+		alarm_set(0, 10);
 	}
 }
 
