@@ -4,5 +4,4 @@
 
 
 draw_sprite(spr_TextBox, 0, obj_Player.x-128,obj_Player.y);
-text = "aaaaaaaaaa";
 draw_text(obj_Player.x-128,obj_Player.y, text);
