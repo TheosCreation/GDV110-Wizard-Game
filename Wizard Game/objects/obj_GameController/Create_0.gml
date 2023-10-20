@@ -1,7 +1,8 @@
 randomise();
+window_set_fullscreen(true);
 global.CanMove = true;
 global.TileType = 0;
-global.EnemyArray = [obj_TestEnemy]
+global.EnemyArray = [obj_TestEnemy,obj_MagmaSnail]
 //all enemies go here
 enum states {
 	idle,
