@@ -6,3 +6,5 @@ UtilitySlots = irandom_range(0,global.Level+1);
 CurrentWandSprite = WandSprites[irandom_range(0,2)];
 
 
+Confirm = false;
+Deny = false;

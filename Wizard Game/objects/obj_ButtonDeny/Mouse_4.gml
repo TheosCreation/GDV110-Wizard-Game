@@ -1,2 +1,2 @@
-obj_TextBox.Deny = true;
+obj_TextBox.WandItem.Deny = true;
 instance_destroy();
