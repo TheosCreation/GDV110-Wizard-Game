@@ -30,6 +30,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1D27E8F","properties":[],"isDnd":false,"objectId":{"name":"obj_TestEnemy","path":"objects/obj_TestEnemy/obj_TestEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2368.0,"y":1024.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47C3A4C7","properties":[],"isDnd":false,"objectId":{"name":"obj_TestEnemy","path":"objects/obj_TestEnemy/obj_TestEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":1408.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_568586BE","properties":[],"isDnd":false,"objectId":{"name":"obj_WandItem","path":"objects/obj_WandItem/obj_WandItem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":896.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E37FAD2","properties":[],"isDnd":false,"objectId":{"name":"obj_MagmaSnail","path":"objects/obj_MagmaSnail/obj_MagmaSnail.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":832.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Walls","tilesetId":{"name":"TileSet_WallTiles","path":"tilesets/TileSet_WallTiles/TileSet_WallTiles.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":40,"SerialiseHeight":30,"TileCompressedData":[
 -16,-2147483648,1,1,-5,2,1,3,-33,-2147483648,1,1,-5,-2147483648,1,3,-33,-2147483648,1,1,-5,-2147483648,1,3,-33,-2147483648,1,1,-5,-2147483648,1,3,-29,-2147483648,1,1,-4,2,-5,-2147483648,
@@ -70,6 +71,7 @@
     {"name":"inst_1D27E8F","path":"rooms/Game/Game.yy",},
     {"name":"inst_47C3A4C7","path":"rooms/Game/Game.yy",},
     {"name":"inst_568586BE","path":"rooms/Game/Game.yy",},
+    {"name":"inst_4E37FAD2","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
