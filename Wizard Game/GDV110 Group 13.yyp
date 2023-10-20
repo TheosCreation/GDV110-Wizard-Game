@@ -14,6 +14,9 @@
     {"id":{"name":"obj_ButtonPlay","path":"objects/obj_ButtonPlay/obj_ButtonPlay.yy",},"order":2,},
     {"id":{"name":"spr_Room2","path":"sprites/spr_Room2/spr_Room2.yy",},"order":12,},
     {"id":{"name":"obj_Room3","path":"objects/obj_Room3/obj_Room3.yy",},"order":2,},
+    {"id":{"name":"spr_Room2","path":"sprites/spr_Room2/spr_Room2.yy",},"order":13,},
+    {"id":{"name":"Game","path":"rooms/Game/Game.yy",},"order":4,},
+    {"id":{"name":"obj_Room3","path":"objects/obj_Room3/obj_Room3.yy",},"order":12,},
     {"id":{"name":"obj_Grid","path":"objects/obj_Grid/obj_Grid.yy",},"order":1,},
     {"id":{"name":"obj_WandItem","path":"objects/obj_WandItem/obj_WandItem.yy",},"order":2,},
     {"id":{"name":"spr_WallTiles","path":"sprites/spr_WallTiles/spr_WallTiles.yy",},"order":5,},
@@ -54,6 +57,8 @@
     {"id":{"name":"spr_ButtonQuit","path":"sprites/spr_ButtonQuit/spr_ButtonQuit.yy",},"order":8,},
     {"id":{"name":"spr_BasicWand","path":"sprites/spr_BasicWand/spr_BasicWand.yy",},"order":0,},
     {"id":{"name":"Game","path":"rooms/Game/Game.yy",},"order":0,},
+    {"id":{"name":"spr_ButtonQuit","path":"sprites/spr_ButtonQuit/spr_ButtonQuit.yy",},"order":9,},
+    {"id":{"name":"spr_Wand","path":"sprites/spr_Wand/spr_Wand.yy",},"order":3,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -72,6 +77,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"MainScreen","path":"rooms/MainScreen/MainScreen.yy",},},
+    {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
+    {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
     {"roomId":{"name":"Controls","path":"rooms/Controls/Controls.yy",},},
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
     {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
