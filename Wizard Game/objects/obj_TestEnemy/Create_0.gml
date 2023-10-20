@@ -37,8 +37,9 @@ PlayerInRange = false;
 
 
 NextMove = "";
+NextMoveWall = false;
 t = 0;
-GoalX = 0;
-GoalY = 0;
-OldX = 0;
-OldY = 0;
+GoalX = x;
+GoalY = y;
+OldX = x;
+OldY = y;

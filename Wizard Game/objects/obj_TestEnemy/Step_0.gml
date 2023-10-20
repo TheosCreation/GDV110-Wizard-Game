@@ -2,7 +2,7 @@ if(Health <= 0){
     scr_Die();
 }
 state = states.idle;
-
+NextMoveWall = tilemap_get(tile_map, floor(GoalX / tile_height), floor(GoalY / tile_width));
 
 DistanceX = x- instance_find(obj_Player,0).x;
 DistanceY = y-instance_find(obj_Player,0).y;
@@ -10,15 +10,18 @@ DistanceY = y-instance_find(obj_Player,0).y;
 PlayerInRange = (abs(DistanceX) <= EnemyViewRange and abs(DistanceY) <= EnemyViewRange )? true : false; 
 PlayerInAttackRange = (abs(DistanceX) <= EnemyAttackRange and abs(DistanceY) <= EnemyAttackRange )? true : false; 
 // checks if player is in range
-if!(tilemap_get(tile_map, GoalX div tile_width, GoalY div tile_width)) {
+//current issue is with moved
+if!(NextMoveWall) {
 	scr_EnemyMoveList(NextMove);
 }
+else{
+	
+}
 
-//current issue is with moved
-show_debug_message(NextMove);
 // if enemy hasnt used move and player is in range game is not frozen
 if((!global.CanMove) && !Moved && MoveCount == 0 && PlayerInRange && !global.GameFroze){
     // decides to move vertical
+	// calculate astar then move enemy
 	if(abs(DistanceY) > abs(DistanceX)){
         
 		// if player is above enemy move up
@@ -90,6 +93,9 @@ else if((!global.CanMove) && !Moved && MoveCount != 0){
     alarm[0] = MoveCountdown;
     
 }
+
+show_debug_message(NextMove);
+
 
 //take damage code invul frames and stuff
 if(OldHealth > Health && !Invulnerable){
