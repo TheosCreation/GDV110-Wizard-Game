@@ -36,6 +36,7 @@
     {"id":{"name":"MainScreen","path":"rooms/MainScreen/MainScreen.yy",},"order":1,},
     {"id":{"name":"obj_Wand","path":"objects/obj_Wand/obj_Wand.yy",},"order":1,},
     {"id":{"name":"spr_FireWand","path":"sprites/spr_FireWand/spr_FireWand.yy",},"order":2,},
+    {"id":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},"order":4,},
     {"id":{"name":"obj_Room2","path":"objects/obj_Room2/obj_Room2.yy",},"order":1,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
     {"id":{"name":"obj_ButtonConfirm","path":"objects/obj_ButtonConfirm/obj_ButtonConfirm.yy",},"order":5,},
@@ -86,6 +87,7 @@
     {"roomId":{"name":"Controls","path":"rooms/Controls/Controls.yy",},},
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
     {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
+    {"roomId":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":10,},
