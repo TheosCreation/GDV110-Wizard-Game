@@ -32,6 +32,9 @@ if(OldHealth > Health && !Invulnerable){
     image_blend = c_aqua;
 }
 
+if(Health <= 0){
+	room_goto(MainScreen);
+}
 /*	
 if (right == 1 and global.CanMove == true) {
 	GoalPosX = x+16;

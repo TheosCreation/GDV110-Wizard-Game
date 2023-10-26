@@ -34,7 +34,7 @@ Health = 100;
 Invulnerable = false;
 
 PlayerInRange = false;
-
+EnemyColor = c_red;
 
 NextMove = "";
 NextMoveWall = false;

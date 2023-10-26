@@ -22,7 +22,7 @@ previousTileY = yPos;
 
 nextTileX = xPos;
 nextTileY = yPos;
-
+EnemyColor = c_red;
 walk_anim_time = 6;
 walk_anim_length = 0;
 
