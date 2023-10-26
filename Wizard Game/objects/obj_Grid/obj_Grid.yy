@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Technical",
-    "path": "folders/Objects/Technical.yy",
+    "name": "Trash",
+    "path": "folders/Trash.yy",
   },
 }

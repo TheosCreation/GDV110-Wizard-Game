@@ -11,15 +11,37 @@ PlayerInRange = (abs(DistanceX) <= EnemyViewRange and abs(DistanceY) <= EnemyVie
 PlayerInAttackRange = (abs(DistanceX) <= EnemyAttackRange and abs(DistanceY) <= EnemyAttackRange )? true : false; 
 // checks if player is in range
 //current issue is with moved
-if!(NextMoveWall) {
-	scr_EnemyMoveList(NextMove);
+if( !Moved && !global.CanMove && !NextMoveWall && PlayerInRange && !global.GameFroze&&MoveCount == 0 ) {
+	
+	Moving = true;
+
+	MoveCount = MoveSpeed
+    Moved = true;
+    alarm[0] = MoveCountdown;
+	
+	
 }
-else{
+else if((!global.CanMove) && !Moved && MoveCount != 0){
+	Moving = false;
+    MoveCount -= 1;
+    Moved = true;
+    alarm[0] = MoveCountdown;
+	
+    
+}
+
+if(t>=1){
+	Moving = false;
 	
 }
 
+if(Moving){
+		show_debug_message(NextMove);
+	scr_EnemyMoveList(NextMove);
+}
+
 // if enemy hasnt used move and player is in range game is not frozen
-if((!global.CanMove) && !Moved && MoveCount == 0 && PlayerInRange && !global.GameFroze){
+if( !Moved){
     // decides to move vertical
 	// calculate astar then move enemy
 	if(abs(DistanceY) > abs(DistanceX)){
@@ -83,16 +105,9 @@ if((!global.CanMove) && !Moved && MoveCount == 0 && PlayerInRange && !global.Gam
 			}
         }
     }
-    Moved = true;
-    alarm[0] = MoveCountdown;
-    MoveCount = MoveSpeed;
+
 }
-else if((!global.CanMove) && !Moved && MoveCount != 0){
-    MoveCount -= 1;
-    Moved = true;
-    alarm[0] = MoveCountdown;
-    
-}
+
 
 
 //take damage code invul frames and stuff

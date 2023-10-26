@@ -4,7 +4,7 @@
 
 //pretty much all copied from player xdxd
 Moved = false;
-
+Moving = false;
 MoveSpeed = 1; //the higher this is, the more turns it will take to move.
 MoveCount = 0;
 //this is how many breaks it will have.
