@@ -1,4 +1,4 @@
-if(Health <= 0){
+	if(Health <= 0){
     scr_Die();
 }
 state = states.idle;
@@ -32,17 +32,23 @@ else if((!global.CanMove) && !Moved && MoveCount != 0){
 
 if(t>=1){
 	Moving = false;
+	t = 1;
 	
 }
 
 if(Moving){
-		show_debug_message(NextMove);
 	scr_EnemyMoveList(NextMove);
 }
+else{
+x = (round((x)/tile_width)*tile_width);
+y = (round((y)/tile_height)*tile_height);
 
+}
 // if enemy hasnt used move and player is in range game is not frozen
-if( !Moved){
+if(MoveCount == 0){
+
     // decides to move vertical
+	
 	// calculate astar then move enemy
 	if(abs(DistanceY) > abs(DistanceX)){
         
@@ -107,7 +113,11 @@ if( !Moved){
     }
 
 }
+else{
+	
 
+	//NextMove = "DoNothing";
+}
 
 
 //take damage code invul frames and stuff
