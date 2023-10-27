@@ -1,4 +1,4 @@
-	if(Health <= 0){
+if(Health <= 0){
     scr_Die();
 }
 state = states.idle;
@@ -11,44 +11,16 @@ PlayerInRange = (abs(DistanceX) <= EnemyViewRange and abs(DistanceY) <= EnemyVie
 PlayerInAttackRange = (abs(DistanceX) <= EnemyAttackRange and abs(DistanceY) <= EnemyAttackRange )? true : false; 
 // checks if player is in range
 //current issue is with moved
-if( !Moved && !global.CanMove && !NextMoveWall && PlayerInRange && !global.GameFroze&&MoveCount == 0 ) {
-	
-	Moving = true;
-
-	MoveCount = MoveSpeed
-    Moved = true;
-    alarm[0] = MoveCountdown;
-	
-	
-}
-else if((!global.CanMove) && !Moved && MoveCount != 0){
-	Moving = false;
-    MoveCount -= 1;
-    Moved = true;
-    alarm[0] = MoveCountdown;
-	
-    
-}
-
-if(t>=1){
-	Moving = false;
-	t = 1;
-	
-}
-
-if(Moving){
+if!(NextMoveWall) {
 	scr_EnemyMoveList(NextMove);
 }
 else{
-x = (round((x)/tile_width)*tile_width);
-y = (round((y)/tile_height)*tile_height);
-
-}
-// if enemy hasnt used move and player is in range game is not frozen
-if(MoveCount == 0){
-
-    // decides to move vertical
 	
+}
+
+// if enemy hasnt used move and player is in range game is not frozen
+if((!global.CanMove) && !Moved && MoveCount == 0 && PlayerInRange && !global.GameFroze){
+    // decides to move vertical
 	// calculate astar then move enemy
 	if(abs(DistanceY) > abs(DistanceX)){
         
@@ -59,6 +31,7 @@ if(MoveCount == 0){
 				NextMove = "AttackDown";
 				GoalY = y+tile_height;
 				GoalX = x;
+
 			}
 			else{
 				NextMove = "MoveDown";
@@ -80,7 +53,7 @@ if(MoveCount == 0){
 				GoalY = y-tile_height;
 				GoalX = x;
 				OldY =  y;
-				instance_create_layer(x,y,"Instances",obj_FireFloor);
+								instance_create_layer(x,y,"Instances",obj_FireFloor);
 			}
         }
     }
@@ -115,12 +88,15 @@ if(MoveCount == 0){
 			}
         }
     }
-
+    Moved = true;
+    alarm[0] = MoveCountdown;
+    MoveCount = MoveSpeed;
 }
-else{
-	
-
-	//NextMove = "DoNothing";
+else if((!global.CanMove) && !Moved && MoveCount != 0){
+    MoveCount -= 1;
+    Moved = true;
+    alarm[0] = MoveCountdown;
+    
 }
 
 

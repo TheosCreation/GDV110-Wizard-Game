@@ -20,35 +20,35 @@ switch(NextMove){
         
     break;
     case "AttackUp":
-		if(abs(DistanceY) <= EnemyAttackRange){
+		if(abs(DistanceY) <= EnemyAttackRange&&!Attacked){
 			var slash = instance_create_layer(x+32,y+32,"Instances", obj_Slash);
 			slash.image_blend = EnemyColor;
 			slash.image_angle = 0;
-			obj_Player.Health -= 1;
+			Attacked = true;
 		}
     break;
     case "AttackDown":
-		if(abs(DistanceY) <= EnemyAttackRange){
+		if(abs(DistanceY) <= EnemyAttackRange&&!Attacked){
 			var slash = instance_create_layer(x+32,y+32,"Instances", obj_Slash);
 			slash.image_blend = EnemyColor;
 			slash.image_angle = 180;
-			obj_Player.Health -= 1;
+			Attacked = true;
 		}
     break;
     case "AttackLeft":
-		if(abs(DistanceX) <= EnemyAttackRange){
+		if(abs(DistanceX) <= EnemyAttackRange&&!Attacked){
 			var slash = instance_create_layer(x+32,y+32,"Instances", obj_Slash);
 			slash.image_blend = EnemyColor;
 			slash.image_angle = 90;
-			obj_Player.Health -= 1;
+			Attacked = true;
 		}
     break;
     case "AttackRight":
-		if(abs(DistanceX) <= EnemyAttackRange){
+		if(abs(DistanceX) <= EnemyAttackRange&&!Attacked){
 			var slash = instance_create_layer(x+32,y+32,"Instances", obj_Slash);
 			slash.image_blend = EnemyColor;
 			slash.image_angle = 270;
-			obj_Player.Health -= 1;
+			Attacked = true;
 		}
     break;
     case "DoNothing":

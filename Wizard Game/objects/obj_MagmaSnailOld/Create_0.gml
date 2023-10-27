@@ -1,7 +1,7 @@
 //set to x or y depending, i would usually do scuffed ass bool but ig this is cleaner lol
 
 
-Attacked = false;
+
 //pretty much all copied from player xdxd
 Moved = false;
 Moving = false;
@@ -11,7 +11,7 @@ MoveCount = 0;
 
 MoveCountdown = 10;
 EnemyViewRange = 320;
-EnemyAttackRange = 128;
+EnemyAttackRange = 64;
 state = states.idle;
 
 xPos = x div tile_width;
@@ -22,7 +22,7 @@ previousTileY = yPos;
 
 nextTileX = xPos;
 nextTileY = yPos;
-
+EnemyColor = c_red;
 walk_anim_time = 6;
 walk_anim_length = 0;
 
@@ -34,7 +34,7 @@ Health = 100;
 Invulnerable = false;
 
 PlayerInRange = false;
-EnemyColor = c_red;
+
 
 NextMove = "";
 NextMoveWall = false;
