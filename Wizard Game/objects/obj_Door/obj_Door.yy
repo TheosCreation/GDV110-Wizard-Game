@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Door",
   "spriteId": {
-    "name": "spr_Door",
-    "path": "sprites/spr_Door/spr_Door.yy",
+    "name": "spr_DoorOpen",
+    "path": "sprites/spr_DoorOpen/spr_DoorOpen.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,6 +27,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
