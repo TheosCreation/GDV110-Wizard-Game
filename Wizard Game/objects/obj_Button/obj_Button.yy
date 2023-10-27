@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Grid",
+  "name": "obj_Button",
   "spriteId": {
-    "name": "spr_GridGreen",
-    "path": "sprites/spr_GridGreen/spr_GridGreen.yy",
+    "name": "spr_ButtonControls",
+    "path": "sprites/spr_ButtonControls/spr_ButtonControls.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_UiController",
+    "path": "objects/obj_UiController/obj_UiController.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,14 +27,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Trash",
-    "path": "folders/Trash.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
 }

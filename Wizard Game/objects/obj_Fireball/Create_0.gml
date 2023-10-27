@@ -5,4 +5,3 @@ TileYPos = obj_Pointer.y+32;
 //update mouse pos to tile pos
 originalX = x;
 originalY = y;
-
