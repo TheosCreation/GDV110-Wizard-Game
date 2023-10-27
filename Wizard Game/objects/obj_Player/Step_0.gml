@@ -18,10 +18,15 @@ if(global.CanMove or state = states.walking && !global.GameFroze){
 			global.CanMove = true;;
 		}
 	}
-	else if(state == states.attacking){
-		instance_create_layer(x,y,"Instances",obj_Fireball);
+	else if(state == states.attacking&&!Shot){
+		var length =  obj_Wand.SpellCount;
+		for(var i = 0; i < length; i++){
+			var inst = instance_create_layer(x,y,"Instances",obj_Wand.EquippedSpells[i]);
+			inst.ShootAngle += (i-length/2) * 10;
+		}
 		global.CanMove = false; 
 		alarm_set(0, 10);
+		Shot = true;
 	}
 }
 
