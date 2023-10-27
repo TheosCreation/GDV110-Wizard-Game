@@ -19,11 +19,9 @@ if(global.CanMove or state = states.walking && !global.GameFroze){
 		}
 	}
 	else if(state == states.attacking){
-		if(obj_Pointer.CanAttack){
-			instance_create_layer(x,y,"Instances",obj_Fireball);
-			global.CanMove = false; 
-			alarm_set(0, 10);
-		}
+		instance_create_layer(x,y,"Instances",obj_Fireball);
+		global.CanMove = false; 
+		alarm_set(0, 10);
 	}
 }
 

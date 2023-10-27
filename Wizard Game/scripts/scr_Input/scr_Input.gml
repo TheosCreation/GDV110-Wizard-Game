@@ -19,7 +19,8 @@ if(right) {
 }
 if(MouseDown){
 	if (state == states.idle){
-
-		state = states.attacking;
+		if(obj_Pointer.CanAttack) {
+			state = states.attacking;
+		}
 	}
 }
