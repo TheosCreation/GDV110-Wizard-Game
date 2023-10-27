@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Instantiatable",
-    "path": "folders/Objects/Physical stuff/Instantiatable.yy",
+    "name": "Spells",
+    "path": "folders/Objects/Physical stuff/Instantiatable/Spells.yy",
   },
 }

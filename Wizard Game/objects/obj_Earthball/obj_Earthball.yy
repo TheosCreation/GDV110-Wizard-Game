@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Waterball",
+  "name": "obj_Earthball",
   "spriteId": {
-    "name": "spr_Waterball",
-    "path": "sprites/spr_Waterball/spr_Waterball.yy",
+    "name": "spr_Earthball",
+    "path": "sprites/spr_Earthball/spr_Earthball.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Waterball",
+  "name": "obj_Airball",
   "spriteId": {
-    "name": "spr_Waterball",
-    "path": "sprites/spr_Waterball/spr_Waterball.yy",
+    "name": "spr_Airball",
+    "path": "sprites/spr_Airball/spr_Airball.yy",
   },
   "solid": false,
   "visible": true,
