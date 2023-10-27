@@ -8,4 +8,3 @@ text = "";
 
 Confirmed =  false;
 
-show_debug_message("aaaaaaaa");
