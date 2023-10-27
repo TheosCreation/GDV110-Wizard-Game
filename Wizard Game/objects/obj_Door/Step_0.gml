@@ -1,6 +1,7 @@
 
 if(obj_Player.xPos = TileX && obj_Player.yPos = TileY && !layer_has_instance("Instances", obj_MagmaSnail)) {
-	if(CurrentLevel = 1){
+	if(CurrentLevel == 1){
+		CurrentLevel = 2;
 		room_goto(Level2);
 	}
 	else{

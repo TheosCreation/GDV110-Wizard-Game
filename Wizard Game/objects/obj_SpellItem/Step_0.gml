@@ -1,6 +1,5 @@
 
-
-if(place_meeting(x,y,obj_Player)&&!CreatedText){
+if(obj_Player.xPos = TileX && obj_Player.yPos = TileY&&!CreatedText){
 	global.GameFroze = true;
 	var txt = instance_create_layer(x,y,"Buttons",obj_TextBox)
 	txt.WandText = false;

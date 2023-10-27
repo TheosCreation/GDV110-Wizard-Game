@@ -1,4 +1,7 @@
 
+TileX = x div tile_width;
+TileY = y div tile_height;
+
 WandSprites = [spr_EarthWand,spr_FireWand,spr_WaterWand];
 AttackSlots = irandom_range(1,global.Level+2);
 DefenceSlots = irandom_range(1,global.Level+2);

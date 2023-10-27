@@ -1,4 +1,7 @@
 
+TileX = x div tile_width;
+TileY = y div tile_height;
+
 SpellSprites = [spr_Fireball,spr_Waterball];
 SelectedSpell = noone;
 CurrentSpellSprite = SpellSprites[irandom_range(0,1)];
