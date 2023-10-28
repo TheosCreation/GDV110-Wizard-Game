@@ -5,3 +5,7 @@ inventory = array_create(inventory_slots, -1);
 InventoryOn = false;
 
 InvSummoned = false;
+
+AddSpell =  false;
+ActiveSlot = 0;
+SpellToAdd = noone;

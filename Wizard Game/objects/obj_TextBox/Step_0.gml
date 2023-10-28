@@ -25,12 +25,14 @@ if(WandText){
 	}
 }
 else{
-text = "FIREBALL OR WATER IDK";
+text = "Would you like this spell?";
 //	string("Attack slots: {0}\nDefence slots: {1}\nUtility slots: {2}",
 //	string(WandItem.AttackSlots), string(WandItem.DefenceSlots) , 
 //string(WandItem.UtilitySlots));
 	if(WandItem.Confirm && !Confirmed){
 		obj_Wand.EquippedSpells[obj_Wand.SpellCount] = WandItem.SelectedSpell;
+		obj_Inventory.SpellToAdd =  WandItem.SelectedSpell;
+		obj_Inventory.AddSpell = true;
 		instance_destroy(WandItem.id);
 		instance_destroy(DenyButton);
 		instance_destroy(ConfirmButton);
