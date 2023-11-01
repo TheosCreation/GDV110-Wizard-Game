@@ -8,9 +8,15 @@ if(InventoryOn && !InvSummoned ){
 		for(var j = 0; j < RowLength; j++){
 			//draw_sprite(spr_InventorySlot, -1, x+(j*64)-(RowLength*32),y+(i*64)-96);
 			var inst = instance_create_layer( x+(j*64)-(RowLength*32),y+(i*64)-96, "Buttons", obj_InventorySlot);
+			inventory[(i*RowLength)+j] = inst;
 				
 		}
 	}
 	InvSummoned = true;
+	
+}
+else if (InventoryOn){
+		//const inv code here
+		//always check if inv is on before running inv code
 	
 }
