@@ -25,12 +25,16 @@ if(WandText){
 	}
 }
 else{
+text = "Would you like this spell";
 text = "Would you like this spell?";
 //	string("Attack slots: {0}\nDefence slots: {1}\nUtility slots: {2}",
 //	string(WandItem.AttackSlots), string(WandItem.DefenceSlots) , 
 //string(WandItem.UtilitySlots));
 	if(WandItem.Confirm && !Confirmed){
 		obj_Wand.EquippedSpells[obj_Wand.SpellCount] = WandItem.SelectedSpell;
+		obj_Inventory.itemArray[obj_Inventory.CurrentInventorySlot] = WandItem.CurrentSpellSprite;
+	//	obj_Inventory.itemArrayObj[obj_Inventory.CurrentInventorySlot] = WandItem.SelectedSpell;
+		obj_Inventory.CurrentInventorySlot++;
 		obj_Inventory.SpellToAdd =  WandItem.SelectedSpell;
 		obj_Inventory.AddSpell = true;
 		instance_destroy(WandItem.id);

@@ -1,4 +1,5 @@
 draw_self();
-if(objInInventory != noone){
-draw_sprite(objInInventory.sprite_index,-1,x,y)
+draw_sprite(CurrentItem, -1, x+32,y+32);
+if(selected){
+	draw_sprite(spr_GridGreen,-1,x,y);	
 }
