@@ -23,8 +23,10 @@ MoveSpeed = 2;
 Invulnerable = false;
 Health = 100;
 OldHealth = Health;
+MaxHealth = Health;
 
 t = 0;
+
 
 //////////////////////////////////////////////////////////////////////
 		//		//		//		//		//		//		//		//
