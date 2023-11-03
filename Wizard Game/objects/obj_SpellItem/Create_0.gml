@@ -7,7 +7,7 @@ SelectedSpell = noone;
 CurrentSpellSprite = SpellSprites[irandom_range(0,3)];
 switch(CurrentSpellSprite){
 	case spr_Fireball:
-		SelectedSpell = obj_Fireball;
+		SelectedSpell = obj_Fireball		
 		break;
 	case spr_Waterball:
 		SelectedSpell = obj_Waterball;
