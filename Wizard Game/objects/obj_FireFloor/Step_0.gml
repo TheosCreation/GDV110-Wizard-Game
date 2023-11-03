@@ -10,7 +10,7 @@ else if(global.CanMove){
 if(DestroyCountdown<=0){
 	instance_destroy();
 }
-if(place_meeting(x,y,obj_Player)){
-	obj_Player.Health-=10;
+if(place_meeting(x,y,obj_Player)&&!obj_Player.Invulnerable){
+	obj_Player.Health-=1;
 	instance_destroy();
 }
