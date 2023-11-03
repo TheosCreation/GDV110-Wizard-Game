@@ -13,16 +13,30 @@ enum states {
 	walking,
 	attacking,
 }
-//funky vector 2 
-global.Vector2 = [0,0];
 //0 is x and 1 is y
 #macro tile_width 64
 #macro tile_height 64
 
-global.m_Up = [0,-tile_height*2]
-global.m_Down = [0,tile_height*2]
-global.m_Left = [-tile_width*2,0]
-global.m_Right = [tile_width*2,0]
+grid_width = (room_width / tile_width)
+grid_height = (room_height / tile_width)
+
+global.grid = mp_grid_create(0, 0, grid_width, grid_height, 64, 64)
+
+tile_layer = layer_get_id("Walls");
+global.tile_map = layer_tilemap_get_id(tile_layer);
+
+for(var i = 0; i < grid_width; i++){
+	for(var j = 0; j < grid_height; j++){
+		if(tilemap_get(global.tile_map, i, j)) {
+			mp_grid_add_cell(global.grid, i, j)
+		}
+	}
+}
+
+global.m_Up = [0,-tile_height*2];
+global.m_Down = [0,tile_height*2];
+global.m_Left = [-tile_width*2,0];
+global.m_Right = [tile_width*2,0];
 
 global.Level = 1;
 //for scaling

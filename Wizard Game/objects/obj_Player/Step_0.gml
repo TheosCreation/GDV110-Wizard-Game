@@ -1,4 +1,10 @@
 
+
+//drawing of the health
+Health_index += (10/60)
+if (floor(Health_index) >= 8) {
+	Health_index = 0
+}
 if(global.CanMove or state = states.walking && !global.GameFroze){
 	scr_Input();
 	if(state == states.walking) {

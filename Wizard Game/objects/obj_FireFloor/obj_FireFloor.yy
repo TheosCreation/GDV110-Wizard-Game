@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_FireFloor",
   "spriteId": {
-    "name": "spr_Deny",
-    "path": "sprites/spr_Deny/spr_Deny.yy",
+    "name": "Sprite37",
+    "path": "sprites/Sprite37/Sprite37.yy",
   },
   "solid": false,
   "visible": true,

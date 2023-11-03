@@ -43,3 +43,7 @@ GoalX = x;
 GoalY = y;
 OldX = x;
 OldY = y;
+
+//Astar 
+path = path_add();
+is_moving = false;

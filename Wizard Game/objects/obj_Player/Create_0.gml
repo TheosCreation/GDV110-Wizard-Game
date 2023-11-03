@@ -24,7 +24,7 @@ Invulnerable = false;
 Health = 100;
 OldHealth = Health;
 MaxHealth = Health;
-
+Health_index = 0;
 t = 0;
 
 

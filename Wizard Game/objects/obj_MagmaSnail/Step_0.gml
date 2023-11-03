@@ -131,4 +131,8 @@ if(OldHealth > Health && !Invulnerable){
     image_blend = c_aqua;
 }
 
-    
+//astar
+if(! is_moving) {
+	var x_cell = floor(obj_Player / tile_width);
+	var y_cell = floor(obj_Player / tile_height);
+}
