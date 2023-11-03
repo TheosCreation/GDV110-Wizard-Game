@@ -2,7 +2,7 @@
 direction = point_direction(originalX,originalY,TileXPos+ShootAngle,TileYPos+ShootAngle);
 speed = BulletSpeed;
 image_angle = direction;
-
+//legit nothing
 if((TileXPos-10+ShootAngle < x and x < TileXPos+10+ShootAngle) and (TileYPos-10+ShootAngle < y and y < TileYPos+10+ShootAngle)){
 //checks if it reacher the tile (or at least close enough yk
 instance_destroy();
