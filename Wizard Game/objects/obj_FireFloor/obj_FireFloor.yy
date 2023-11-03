@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_FireFloor",
   "spriteId": {
-    "name": "Sprite37",
-    "path": "sprites/Sprite37/Sprite37.yy",
+    "name": "spr_Magma",
+    "path": "sprites/spr_Magma/spr_Magma.yy",
   },
   "solid": false,
   "visible": true,

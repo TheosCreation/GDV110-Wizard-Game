@@ -1,8 +1,9 @@
 randomise();
 window_set_fullscreen(true);
+CameraSpeed = 7;
 
 camera_destroy(view_camera[0]);
-view_camera[0] = camera_create_view(333, 222, 640, 480, 0, obj_Player, 5, 5, 1920, 1080);
+view_camera[0] = camera_create_view(obj_Player.x -333, obj_Player.y - 222, 640, 480, 0, obj_Player, CameraSpeed, CameraSpeed, 1920, 1080);
 
 global.CanMove = true;
 global.TileType = 0;

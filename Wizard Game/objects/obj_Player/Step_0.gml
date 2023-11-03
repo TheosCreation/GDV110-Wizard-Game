@@ -2,7 +2,7 @@
 
 //drawing of the health
 Health_index += (10/60)
-if (floor(Health_index) >= 8) {
+if (floor(Health_index) >= 13) {
 	Health_index = 0
 }
 if(global.CanMove or state = states.walking && !global.GameFroze){
@@ -38,6 +38,7 @@ if(global.CanMove or state = states.walking && !global.GameFroze){
 
 //take damage code invul frames and stuff
 if(OldHealth > Health && !Invulnerable){
+	Health = OldHealth;
     Invulnerable = true;
     alarm[1] = 20;
     image_blend = c_aqua;
