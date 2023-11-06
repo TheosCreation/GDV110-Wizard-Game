@@ -26,3 +26,6 @@ for(var i = 0; i < inventory_slots/RowLength; i++){
 AddSpell =  false;
 ActiveSlot = 0;
 SpellToAdd = noone;
+UpdateSelection = false;
+SelectedInventoryList = array_create(inventory_slots+1,noone);
+PlaceInSelectedList = 0;
