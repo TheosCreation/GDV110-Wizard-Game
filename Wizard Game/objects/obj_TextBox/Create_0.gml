@@ -8,3 +8,5 @@ text = "";
 
 Confirmed =  false;
 
+TextXOffset = 0;
+TextYOffset = 0;

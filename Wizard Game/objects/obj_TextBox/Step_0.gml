@@ -1,5 +1,9 @@
 
 if(WandText){
+	
+	TextXOffset = 16;
+	TextYOffset = 64;
+
 	text = 
 	string("Attack slots: {0}\nDefence slots: {1}\nUtility slots: {2}",
 	string(WandItem.AttackSlots), string(WandItem.DefenceSlots) , 
@@ -25,8 +29,9 @@ if(WandText){
 	}
 }
 else{
-text = "Would you like this spell";
 text = "Would you like this spell?";
+	TextXOffset = 52;
+	TextYOffset = 64;
 //	string("Attack slots: {0}\nDefence slots: {1}\nUtility slots: {2}",
 //	string(WandItem.AttackSlots), string(WandItem.DefenceSlots) , 
 //string(WandItem.UtilitySlots));
