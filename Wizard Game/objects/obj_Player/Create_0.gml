@@ -1,4 +1,4 @@
-
+count = 0;
 
 state = states.idle;
 

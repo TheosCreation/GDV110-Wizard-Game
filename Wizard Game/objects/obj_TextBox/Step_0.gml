@@ -46,7 +46,6 @@ text = "Would you like this spell?";
 		instance_destroy(DenyButton);
 		instance_destroy(ConfirmButton);
 		global.GameFroze = false;
-		obj_Wand.SpellCount+=1;
 		Confirmed = true;
 		instance_destroy();
 	

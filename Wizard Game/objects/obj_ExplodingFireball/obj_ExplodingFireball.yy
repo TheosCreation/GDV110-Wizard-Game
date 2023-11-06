@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Player",
+  "name": "obj_ExplodingFireball",
   "spriteId": {
-    "name": "spr_Player",
-    "path": "sprites/spr_Player/spr_Player.yy",
+    "name": "spr_ExplodingFireball",
+    "path": "sprites/spr_ExplodingFireball/spr_ExplodingFireball.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,15 +27,11 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Physical stuff",
-    "path": "folders/Objects/Physical stuff.yy",
+    "name": "Spells",
+    "path": "folders/Objects/Physical stuff/Instantiatable/Spells.yy",
   },
 }
