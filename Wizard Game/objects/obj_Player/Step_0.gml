@@ -37,9 +37,9 @@ if(global.CanMove or state = states.walking && !global.GameFroze){
 }
 
 //take damage code invul frames and stuff
-if(OldHealth > Health && !Invulnerable){
-    Invulnerable = true;
-    alarm[1] = 20;
+if(OldHealth > Health){
+	OldHealth = Health;
+    alarm[1] = InvulnerableTimer;
     image_blend = c_aqua;
 }
 

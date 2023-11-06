@@ -33,6 +33,7 @@
     {"id":{"name":"spr_Inventory","path":"sprites/spr_Inventory/spr_Inventory.yy",},"order":34,},
     {"id":{"name":"obj_SpellItem","path":"objects/obj_SpellItem/obj_SpellItem.yy",},"order":4,},
     {"id":{"name":"obj_ButtonDeny","path":"objects/obj_ButtonDeny/obj_ButtonDeny.yy",},"order":6,},
+    {"id":{"name":"spr_HealthText","path":"sprites/spr_HealthText/spr_HealthText.yy",},"order":36,},
     {"id":{"name":"spr_Health","path":"sprites/spr_Health/spr_Health.yy",},"order":32,},
     {"id":{"name":"spr_MainMenu","path":"sprites/spr_MainMenu/spr_MainMenu.yy",},"order":6,},
     {"id":{"name":"spr_TextBox","path":"sprites/spr_TextBox/spr_TextBox.yy",},"order":17,},

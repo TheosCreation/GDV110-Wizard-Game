@@ -18,7 +18,8 @@ for(var i = 0; i < array_length(global.EnemyArray); i++){
 	    for (var j = 0; j < num; ++j;)
 	    {
 			if(!CollisionList[| j].Invulnerable){
-				CollisionList[| j].Health -= 20;
+				CollisionList[| j].Invulnerable = true;
+				CollisionList[| j].Health--;
 			}
 	    }
 

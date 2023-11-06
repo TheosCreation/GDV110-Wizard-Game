@@ -17,11 +17,11 @@ walk_anim_length = 0;
 tile_layer = layer_get_id("Walls");
 tile_map = layer_tilemap_get_id(tile_layer);
 Shot = false;
-//unused 
-turn = 0;
+
 MoveSpeed = 2;
 Invulnerable = false;
-Health = 100;
+InvulnerableTimer = 50;
+Health = 5;
 OldHealth = Health;
 MaxHealth = Health;
 Health_index = 0;
