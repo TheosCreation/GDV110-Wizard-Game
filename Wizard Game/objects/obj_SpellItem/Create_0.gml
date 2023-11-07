@@ -1,11 +1,11 @@
 
-SpellSprites = [spr_Fireball,spr_Waterball,spr_Airball,spr_Earthball,spr_ExplodingFireball,spr_AirShield];
+SpellSprites = [spr_Fireball,spr_Waterball,spr_Airball,spr_Earthball,spr_ExplodingFireball,spr_AirShield,spr_EarthGrab];
 //add new sprite here when making new spell
 TileX = x div tile_width;
 TileY = y div tile_height;
 
 SelectedSpell = noone;
-CurrentSpellSprite = SpellSprites[irandom_range(0,5)];
+CurrentSpellSprite = SpellSprites[irandom_range(0,6)];
 //add one to the range when making new spell
 switch(CurrentSpellSprite){
 	case spr_Fireball:
@@ -25,6 +25,9 @@ switch(CurrentSpellSprite){
 		break;
 	case spr_AirShield:
 		SelectedSpell = obj_AirShield;
+		break;
+	case spr_EarthGrab:
+		SelectedSpell = obj_EarthGrab;
 		break;
 	default:
 	break;

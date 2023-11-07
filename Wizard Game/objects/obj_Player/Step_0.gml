@@ -8,7 +8,7 @@ if (floor(Health_index) >= 13) {
 if(global.CanMove or state = states.walking && !global.GameFroze){
 	scr_Input();
 	if(state == states.walking) {
-		t += 0.1;
+		t += 0.05;
 	
 	
 		 x = lerp(x, nextTileX* tile_width+32, t);
@@ -32,12 +32,12 @@ if(global.CanMove or state = states.walking && !global.GameFroze){
 			inst.ShootAngle += (i-length/2) * 10;
 		}*/ 
 		global.CanMove = false; 
-		alarm_set(0, 10);
+		alarm_set(0, 20 );
 		Shot = true;
 	}
 	else if(state == states.attacking&&!Shot){
 		global.CanMove = false; 
-		alarm_set(0, 10);
+		alarm_set(0, 20);
 		Shot = true;
 	}
 }
