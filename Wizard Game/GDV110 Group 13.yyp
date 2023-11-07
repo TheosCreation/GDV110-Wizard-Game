@@ -83,6 +83,7 @@
     {"id":{"name":"scr_Tiles","path":"scripts/scr_Tiles/scr_Tiles.yy",},"order":1,},
     {"id":{"name":"obj_Room4","path":"objects/obj_Room4/obj_Room4.yy",},"order":3,},
     {"id":{"name":"spr_DoorClosed","path":"sprites/spr_DoorClosed/spr_DoorClosed.yy",},"order":25,},
+    {"id":{"name":"spr_Heart","path":"sprites/spr_Heart/spr_Heart.yy",},"order":37,},
     {"id":{"name":"scr_Move","path":"scripts/scr_Move/scr_Move.yy",},"order":0,},
     {"id":{"name":"obj_Room1","path":"objects/obj_Room1/obj_Room1.yy",},"order":0,},
     {"id":{"name":"spr_InventoryOld","path":"sprites/spr_InventoryOld/spr_InventoryOld.yy",},"order":31,},
