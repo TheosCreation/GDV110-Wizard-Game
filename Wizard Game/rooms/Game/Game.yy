@@ -42,6 +42,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A859558","properties":[],"isDnd":false,"objectId":{"name":"obj_SpellItem","path":"objects/obj_SpellItem/obj_SpellItem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47E9DF55","properties":[],"isDnd":false,"objectId":{"name":"obj_SpellItem","path":"objects/obj_SpellItem/obj_SpellItem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D928226","properties":[],"isDnd":false,"objectId":{"name":"obj_SpellItem","path":"objects/obj_SpellItem/obj_SpellItem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":576.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B59545A","properties":[],"isDnd":false,"objectId":{"name":"obj_AirShield","path":"objects/obj_AirShield/obj_AirShield.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":576.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Pointer","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2681EBE3","properties":[],"isDnd":false,"objectId":{"name":"obj_Pointer","path":"objects/obj_Pointer/obj_Pointer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":1088.0,},
@@ -96,6 +97,7 @@
     {"name":"inst_5A859558","path":"rooms/Game/Game.yy",},
     {"name":"inst_47E9DF55","path":"rooms/Game/Game.yy",},
     {"name":"inst_3D928226","path":"rooms/Game/Game.yy",},
+    {"name":"inst_1B59545A","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

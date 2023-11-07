@@ -1,5 +1,5 @@
 count = 0;
-
+Defense = 0
 state = states.idle;
 
 xPos = x div tile_width;
