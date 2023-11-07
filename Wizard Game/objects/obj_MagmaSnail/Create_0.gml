@@ -18,7 +18,7 @@ walk_anim_length = 0;
 Health = 5;
 OldHealth = Health;
 Invulnerable = false;
-InvulnerableTimer = 50;
+InvulnerableTimer =10;
 
 PlayerInRange = false;
 EnemyColor = c_red;
