@@ -18,6 +18,7 @@ tile_layer = layer_get_id("Walls");
 tile_map = layer_tilemap_get_id(tile_layer);
 Shot = false;
 
+MoveCooldown = 50;
 MoveSpeed = 2;
 Invulnerable = false;
 InvulnerableTimer = 50;
