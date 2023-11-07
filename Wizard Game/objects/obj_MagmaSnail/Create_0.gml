@@ -2,7 +2,7 @@
 Attacked = false;
 Moved = false;
 Moving = false;
-MoveSpeed = 3;
+MoveSpeed = 4;
 MoveCount = 0;
 
 MoveCountdown = 10;
