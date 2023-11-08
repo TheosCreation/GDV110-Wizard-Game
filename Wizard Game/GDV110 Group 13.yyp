@@ -125,7 +125,6 @@
     {"roomId":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
-    {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":8,},

@@ -15,6 +15,10 @@ if(obj_Player.xPos = TileX && obj_Player.yPos = TileY && !layer_has_instance("In
 			room = Level5;
 			break;
 		case Level5:
+		instance_destroy(obj_Wand);
+			instance_destroy(obj_Inventory);
+			instance_destroy(obj_InventorySlot);
+			instance_destroy(obj_Player);
 			room = Win;
 			break;
 	}
