@@ -9,7 +9,7 @@ InvSummoned = false;
 CurrentInventorySlot = 0;
 for(var i = 0; i < inventory_slots; i++){
 	itemArray[i] = spr_Empty;
-	itemArrayObj[i] = obj_Fireball;
+	itemArrayObj[i] = noone;
 }
 for(var i = 0; i < inventory_slots/RowLength; i++){
 		for(var j = 0; j < RowLength; j++){

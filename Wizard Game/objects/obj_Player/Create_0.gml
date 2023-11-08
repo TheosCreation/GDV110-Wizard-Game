@@ -1,7 +1,7 @@
 count = 0;
 Defense = 0
 state = states.idle;
-
+SwitchLevels = false;
 xPos = x div tile_width;
 yPos = y div tile_height;
 

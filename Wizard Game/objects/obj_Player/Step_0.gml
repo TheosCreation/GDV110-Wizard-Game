@@ -51,6 +51,49 @@ if(OldHealth > Health){
 
 if(Health <= 0){
 	room_goto(MainScreen);
+	instance_destroy(obj_Wand);
+	instance_destroy(obj_Inventory);
+	instance_destroy(obj_InventorySlot);
+	instance_destroy();
+}
+
+if(SwitchLevels){
+		switch(room){
+		case Game:
+			x = 7; 
+			y = 6;
+			break;
+		case Level2:
+			x = 256;
+			y = 330;
+			break;
+		case Level3:
+			x = 320;
+			y = 256;
+			break;
+		case Level4:
+			x = 320;
+			y = 256;
+			break;
+		case Level5:
+			x = 320;
+			y = 256;
+			break;
+	}
+xPos = x div tile_width;
+yPos = y div tile_height;
+
+previousTileX = xPos;
+previousTileY = yPos;
+
+nextTileX = xPos;
+nextTileY = yPos;
+
+tile_layer = layer_get_id("Walls");
+tile_map = layer_tilemap_get_id(tile_layer);
+Shot = false;
+
+	SwitchLevels = false;
 }
 /*	
 if (right == 1 and global.CanMove == true) {

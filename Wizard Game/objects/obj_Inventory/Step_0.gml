@@ -19,6 +19,9 @@ if(UpdateSelection){
 			obj_Wand.EquippedSpells[obj_Wand.SpellCount] = SelectedInventoryList[s].CurrentItemObj;
 			obj_Wand.SpellCount++;
 		}
+		else{
+			obj_Wand.EquippedSpells[obj_Wand.SpellCount] = obj_Empty;
+		}
 	}
 	UpdateSelection = false;
 }
