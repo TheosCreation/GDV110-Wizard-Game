@@ -64,8 +64,8 @@ if(Health <= 0){
 if(SwitchLevels){
 		switch(room){
 		case Game:
-			x = 7; 
-			y = 6;
+			x = 736; 
+			y = 672;
 			break;
 		case Level2:
 			x = 256;

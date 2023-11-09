@@ -2,6 +2,9 @@
 if(obj_Player.xPos = TileX && obj_Player.yPos = TileY && !layer_has_instance("Instances", obj_MagmaSnail)) {
 
 	switch(room){
+		case Tutorial:
+			room = Game;
+			break;
 		case Game:
 			room = Level2;
 			break;

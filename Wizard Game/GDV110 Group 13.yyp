@@ -145,7 +145,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EnemyAttacks","folderPath":"folders/Objects/Physical stuff/Enemies/EnemyAttacks.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Instantiatable","folderPath":"folders/Objects/Physical stuff/Instantiatable.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Spells","folderPath":"folders/Objects/Physical stuff/Instantiatable/Spells.yy","order":8,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Objects/Rooms.yy","order":9,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Trash/Rooms.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Technical","folderPath":"folders/Objects/Technical.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Objects/UI.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":11,},
