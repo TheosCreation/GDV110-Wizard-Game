@@ -1,3 +1,9 @@
+DistanceX = abs(abs(x+32)- abs(obj_Player.x));
+DistanceY = abs(abs(y+32)- abs(obj_Player.y));
+
+PlayerInRange = (DistanceX <= EnemyViewRange and DistanceY <= EnemyViewRange )? true : false; 
+PlayerInAttackRange = (DistanceX <= EnemyAttackRange and DistanceY <= EnemyAttackRange )? true : false; 
+
 if(Health <= 0){
     scr_Die();
 }
@@ -11,15 +17,10 @@ if(Knockback){
 			FirstKnockback = false;
 		}
 		t += 0.2;
-	
-	
-		 x = lerp(oldFlyX, xPos+(((xPos)-obj_Player.xPos)/10), t);
-		 y = lerp(oldFlyY, yPos+(((yPos)-obj_Player.yPos)/10), t);
 		
-		//x = _x * tile_width + tile_width / 2;
-		//y = _y * tile_height + tile_height / 2;
+		x = lerp(oldFlyX, xPos+DistanceX, t);
+		y = lerp(oldFlyY, yPos+DistanceY, t);
 		
-				
 		if(t >= 1) {
 			t = 0;
 			Knockback = false;
@@ -29,12 +30,6 @@ if(Knockback){
 else{
 	var x_cell = obj_Player.x;
 	var y_cell = obj_Player.y;
-	DistanceX = abs(abs(x+32)- abs(instance_find(obj_Player,0).x));
-	DistanceY = abs(abs(y+32)- abs(instance_find(obj_Player,0).y));
-
-	PlayerInRange = (DistanceX <= EnemyViewRange and DistanceY <= EnemyViewRange )? true : false; 
-	PlayerInAttackRange = (DistanceX <= EnemyAttackRange and DistanceY <= EnemyAttackRange )? true : false; 
-
 	// checks if player is in range
 	if(global.CanMove){
 		Attacked = false;
