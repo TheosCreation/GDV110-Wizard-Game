@@ -41,6 +41,7 @@
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Pointer","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2681EBE3","properties":[],"isDnd":false,"objectId":{"name":"obj_Pointer","path":"objects/obj_Pointer/obj_Pointer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":672.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_77C4131C","properties":[],"isDnd":false,"objectId":{"name":"MusicPlayer","path":"objects/MusicPlayer/MusicPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":704.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Environment","tilesetId":{"name":"TileSet_EnvironmentTiles","path":"tilesets/TileSet_EnvironmentTiles/TileSet_EnvironmentTiles.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":20,"SerialiseHeight":15,"TileCompressedData":[
 -23,-2147483648,1,1,-3,-2147483648,1,3,-5,-2147483648,1,2,-4,-2147483648,1,2,-32,-2147483648,1,3,
@@ -95,6 +96,7 @@
     {"name":"inst_5A859558","path":"rooms/Game/Game.yy",},
     {"name":"inst_47E9DF55","path":"rooms/Game/Game.yy",},
     {"name":"inst_3D928226","path":"rooms/Game/Game.yy",},
+    {"name":"inst_77C4131C","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

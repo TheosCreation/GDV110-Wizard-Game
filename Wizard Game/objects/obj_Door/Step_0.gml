@@ -1,5 +1,7 @@
 
-if(obj_Player.xPos = TileX && obj_Player.yPos = TileY && !layer_has_instance("Instances", obj_MagmaSnail)) {
+if(place_meeting(x,y,obj_Player) && 
+!layer_has_instance("Instances", obj_VineRose)
+&&!layer_has_instance("Instances", obj_MagmaSnail)) {
 
 	switch(room){
 		case Tutorial:

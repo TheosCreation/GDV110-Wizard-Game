@@ -37,6 +37,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_262B3E2A","properties":[],"isDnd":false,"objectId":{"name":"obj_VineRose","path":"objects/obj_VineRose/obj_VineRose.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":1280.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D30EA58","properties":[],"isDnd":false,"objectId":{"name":"obj_VineRose","path":"objects/obj_VineRose/obj_VineRose.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":1152.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_388E524","properties":[],"isDnd":false,"objectId":{"name":"obj_VineRose","path":"objects/obj_VineRose/obj_VineRose.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2048.0,"y":1472.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6722AA8","properties":[],"isDnd":false,"objectId":{"name":"MusicPlayer","path":"objects/MusicPlayer/MusicPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":768.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Pointer","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2681EBE3_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_Pointer","path":"objects/obj_Pointer/obj_Pointer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":1088.0,},
@@ -94,6 +95,7 @@
     {"name":"inst_262B3E2A","path":"rooms/Level3/Level3.yy",},
     {"name":"inst_6D30EA58","path":"rooms/Level3/Level3.yy",},
     {"name":"inst_388E524","path":"rooms/Level3/Level3.yy",},
+    {"name":"inst_6722AA8","path":"rooms/Level3/Level3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
