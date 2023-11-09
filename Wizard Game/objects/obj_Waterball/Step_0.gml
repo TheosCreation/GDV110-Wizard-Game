@@ -19,6 +19,7 @@ for(var i = 0; i < array_length(global.EnemyArray); i++){
 	    {
 			if(!CollisionList[| j].Invulnerable){
 				CollisionList[| j].Health--;
+				instance_destroy();
 			}
 	    }
 

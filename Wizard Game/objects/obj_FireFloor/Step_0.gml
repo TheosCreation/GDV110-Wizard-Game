@@ -10,7 +10,7 @@ if(DestroyCountdown<=0){
 	instance_destroy();
 }
 if(TileX = obj_Player.xPos && TileY = obj_Player.yPos &&!obj_Player.Invulnerable){
-	obj_Player.Health--;
+	obj_Player.Health -=10-obj_Player.Defense;
 	obj_Player.Invulnerable = true;
 	instance_destroy();
 }

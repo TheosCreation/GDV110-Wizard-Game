@@ -5,7 +5,7 @@
 var CollisionList = ds_list_create();
 
 for(var i = 0; i < array_length(global.EnemyArray); i++){
-	var num = collision_circle_list(x, y, tile_width/2,global.EnemyArray[i],false, true, CollisionList,true);
+	var num = collision_circle_list(x, y, tile_width,global.EnemyArray[i],false, true, CollisionList,true);
 	if (num > 0)
 	{
 

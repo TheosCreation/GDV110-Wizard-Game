@@ -1,9 +1,9 @@
 
-direction = point_direction(originalX,originalY,TileXPos+ShootAngle,TileYPos+ ShootAngle);
+direction = point_direction(originalX,originalY,TileXPos,TileYPos);
 speed = BulletSpeed;
 image_angle = direction;
 
-if((TileXPos-10+ShootAngle < x and x < TileXPos+10+ShootAngle) and (TileYPos-10+ShootAngle < y and y < TileYPos+10+ShootAngle)){
+if((TileXPos-10 < x and x < TileXPos+10) and (TileYPos-10+ShootAngle < y and y < TileYPos+10)){
 //checks if it reacher the tile (or at least close enough yk
 instance_destroy();
 }
@@ -20,6 +20,7 @@ for(var i = 0; i < array_length(global.EnemyArray); i++){
 			if(!CollisionList[| j].Invulnerable){
 				CollisionList[| j].Invulnerable = true;
 				CollisionList[| j].Health--;
+				instance_destroy();
 			}
 	    }
 

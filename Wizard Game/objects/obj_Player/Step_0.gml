@@ -6,6 +6,7 @@ if (floor(Health_index) >= 13) {
 	Health_index = 0
 }
 if(global.CanMove or state = states.walking && !global.GameFroze){
+
 	scr_Input();
 	if(state == states.walking) {
 		t += 0.07;
@@ -21,9 +22,11 @@ if(global.CanMove or state = states.walking && !global.GameFroze){
 		if(t >= 1) {
 			t = 0;
 			state = states.idle;
+			show_debug_message("set to true")
 			global.CanMove = true;
 		}
 	}
+	
 	else if(state == states.attacking&&!Shot&&obj_Wand.SpellCount!=0){
 		alarm[2] = 1;
 	/*	var length =  obj_Wand.SpellCount;
@@ -40,6 +43,7 @@ if(global.CanMove or state = states.walking && !global.GameFroze){
 		alarm_set(0, MoveCooldown);
 		Shot = true;
 	}
+	
 }
 
 //take damage code invul frames and stuff

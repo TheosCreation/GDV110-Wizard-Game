@@ -1,5 +1,5 @@
 randomise();
-window_set_fullscreen(true);
+//window_set_fullscreen(true);
 CameraSpeed = 7;
 
 camera_destroy(view_camera[0]);
@@ -7,7 +7,7 @@ view_camera[0] = camera_create_view(obj_Player.x -333, obj_Player.y - 222, 640, 
 
 global.CanMove = true;
 global.TileType = 0;
-global.EnemyArray = [obj_MagmaSnail]
+global.EnemyArray = [obj_MagmaSnail,obj_VineRose]
 //all enemies go here
 enum states {
 	idle,

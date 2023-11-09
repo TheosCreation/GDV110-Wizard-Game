@@ -7,7 +7,7 @@ MoveCount = 0;
 
 MoveCountdown = 10;
 EnemyViewRange = 448;
-EnemyAttackRange = 64;
+EnemyAttackRange = 129;
 
 xPos = x div tile_width;
 yPos = y div tile_height;
