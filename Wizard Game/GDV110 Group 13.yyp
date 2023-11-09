@@ -25,6 +25,7 @@
     {"id":{"name":"spr_Waterball","path":"sprites/spr_Waterball/spr_Waterball.yy",},"order":7,},
     {"id":{"name":"obj_Door","path":"objects/obj_Door/obj_Door.yy",},"order":4,},
     {"id":{"name":"obj_Grid","path":"objects/obj_Grid/obj_Grid.yy",},"order":0,},
+    {"id":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},"order":9,},
     {"id":{"name":"obj_WandItem","path":"objects/obj_WandItem/obj_WandItem.yy",},"order":2,},
     {"id":{"name":"spr_WallTiles","path":"sprites/spr_WallTiles/spr_WallTiles.yy",},"order":5,},
     {"id":{"name":"spr_WinScreen","path":"sprites/spr_WinScreen/spr_WinScreen.yy",},"order":26,},
@@ -123,13 +124,14 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"MainScreen","path":"rooms/MainScreen/MainScreen.yy",},},
-    {"roomId":{"name":"Controls","path":"rooms/Controls/Controls.yy",},},
+    {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"roomId":{"name":"Level4","path":"rooms/Level4/Level4.yy",},},
     {"roomId":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
+    {"roomId":{"name":"Controls","path":"rooms/Controls/Controls.yy",},},
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
   ],
   "Folders": [
