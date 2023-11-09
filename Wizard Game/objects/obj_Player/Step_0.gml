@@ -22,7 +22,6 @@ if(global.CanMove or state = states.walking && !global.GameFroze){
 		if(t >= 1) {
 			t = 0;
 			state = states.idle;
-			show_debug_message("set to true")
 			global.CanMove = true;
 		}
 	}

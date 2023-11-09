@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Vine",
+  "name": "obj_Airball38",
   "spriteId": {
-    "name": "spr_VineWarning",
-    "path": "sprites/spr_VineWarning/spr_VineWarning.yy",
+    "name": "spr_Airball",
+    "path": "sprites/spr_Airball/spr_Airball.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,12 +27,11 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Physical stuff/Enemies.yy",
+    "name": "Spells",
+    "path": "folders/Objects/Physical stuff/Instantiatable/Spells.yy",
   },
 }

@@ -4,7 +4,10 @@ Moved = false;
 Moving = false;
 MoveSpeed = 4;
 MoveCount = 0;
-
+t = 0;
+FirstKnockback = true;
+oldFlyX = x;
+oldFlyY = y;
 MoveCountdown = 10;
 EnemyViewRange = 448;
 EnemyAttackRange = 129;
@@ -33,3 +36,5 @@ OldY = y;
 
 //Astar 
 path = path_add();
+
+Knockback = false;

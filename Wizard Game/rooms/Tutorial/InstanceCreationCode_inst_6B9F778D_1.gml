@@ -1,2 +1,2 @@
-CurrentSpellSprite = spr_Fireball;
-SelectedSpell = obj_Fireball;
+CurrentSpellSprite = spr_Airball;
+SelectedSpell = obj_Airball;
