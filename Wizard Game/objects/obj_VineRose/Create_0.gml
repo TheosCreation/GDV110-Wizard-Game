@@ -1,4 +1,4 @@
-
+Knockback  = false;
 Attacked = false;
 Moved = false;
 Moving = false;

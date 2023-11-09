@@ -17,9 +17,17 @@ if(Knockback){
 			FirstKnockback = false;
 		}
 		t += 0.2;
-		
-		x = lerp(oldFlyX, xPos+DistanceX, t);
-		y = lerp(oldFlyY, yPos+DistanceY, t);
+		var FlownToPosX = xPos+sign(DistanceX)*(tile_width*1);
+		var FlownToPosY = yPos+sign(DistanceY)*(tile_height*1);
+		if!(tilemap_get(obj_Player.tile_map, FlownToPosX, FlownToPosY)){		
+			x = lerp(oldFlyX,FlownToPosX , t);
+			y = lerp(oldFlyY,FlownToPosY, t);
+		}
+		else{
+			x+=(t-0.6)*32;
+			//y+=(t-0.5)*32;
+			//lil shake
+		}
 		
 		if(t >= 1) {
 			t = 0;

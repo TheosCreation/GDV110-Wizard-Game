@@ -5,6 +5,10 @@ SwitchLevels = false;
 xPos = x div tile_width;
 yPos = y div tile_height;
 
+teleport = false;
+newTpPosX = 0;
+newTpPosY = 0;
+
 previousTileX = xPos;
 previousTileY = yPos;
 

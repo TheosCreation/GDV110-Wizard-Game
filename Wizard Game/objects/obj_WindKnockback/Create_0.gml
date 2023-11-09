@@ -6,3 +6,5 @@ TileYPos = obj_Pointer.y+32;
 originalX = x;
 originalY = y;
 ShootAngle = 0;
+
+image_angle = 90;

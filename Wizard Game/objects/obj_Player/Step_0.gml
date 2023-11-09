@@ -5,22 +5,48 @@ Health_index += (10/60)
 if (floor(Health_index) >= 13) {
 	Health_index = 0
 }
-if(global.CanMove or state = states.walking && !global.GameFroze){
+if(teleport){
+	sprite_index = spr_Teleport;
+	
+	if(image_index == 0){
+		newTpPosX = obj_Pointer.x+32;	
+		newTpPosY = obj_Pointer.y+32;	
+	}
+	if(image_index == 8){
+		x =	newTpPosX
+		y = newTpPosY
+	}
+	if(image_index >= 14){
+		sprite_index = spr_Player;
+		teleport = false;
+	}
+	xPos = x div tile_width;
+	yPos = y div tile_height;
 
-	scr_Input();
-	if(state == states.walking) {
-		t += 0.07;
+	previousTileX = xPos;
+	previousTileY = yPos;
+
+	nextTileX = xPos;
+	nextTileY = yPos;
+	
+}
+else{
+	if(global.CanMove or state = states.walking && !global.GameFroze){
+
+		scr_Input();
+		if(state == states.walking) {
+			t += 0.07;
 	
 	
-		 x = lerp(x, nextTileX* tile_width+32, t);
-		 y = lerp(y, nextTileY* tile_height+32, t);
+			 x = lerp(x, nextTileX* tile_width+32, t);
+			 y = lerp(y, nextTileY* tile_height+32, t);
 		
-		//x = _x * tile_width + tile_width / 2;
-		//y = _y * tile_height + tile_height / 2;
-		global.CanMove = false; 
+			//x = _x * tile_width + tile_width / 2;
+			//y = _y * tile_height + tile_height / 2;
+			global.CanMove = false; 
 				
-		if(t >= 1) {
-			t = 0;
+			if(t >= 1) {
+				t = 0;
 			state = states.idle;
 			global.CanMove = true;
 		}
@@ -33,16 +59,17 @@ if(global.CanMove or state = states.walking && !global.GameFroze){
 			var inst = instance_create_layer(x,y,"Instances",obj_Wand.EquippedSpells[i]);
 			inst.ShootAngle += (i-length/2) * 10;
 		}*/ 
-		global.CanMove = false; 
-		alarm_set(0, MoveCooldown);
-		Shot = true;
-	}
-	else if(state == states.attacking&&!Shot){
-		global.CanMove = false; 
-		alarm_set(0, MoveCooldown);
-		Shot = true;
-	}
+			global.CanMove = false; 
+			alarm_set(0, MoveCooldown);
+			Shot = true;
+		}
+		else if(state == states.attacking&&!Shot){
+			global.CanMove = false; 
+			alarm_set(0, MoveCooldown);
+			Shot = true;
+		}
 	
+	}
 }
 
 //take damage code invul frames and stuff
