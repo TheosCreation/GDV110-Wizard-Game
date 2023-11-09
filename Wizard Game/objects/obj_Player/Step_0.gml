@@ -52,7 +52,7 @@ else{
 		}
 	}
 	
-	else if(state == states.attacking&&!Shot&&obj_Wand.SpellCount!=0){
+	else if(state == states.attacking&&!Shot&&obj_Wand.SpellCount!=0 && !global.GameFroze){
 		alarm[2] = 1;
 	/*	var length =  obj_Wand.SpellCount;
 		for(var i = 0; i < length; i++){
@@ -108,6 +108,18 @@ if(SwitchLevels){
 		case Level5:
 			x = 320;
 			y = 256;
+			break;
+		case Level6:
+			x = 1344;
+			y = 960;
+			break;
+		case Level7:
+			x = 256;
+			y = 192;
+			break;
+		case Level8:
+			x = 2176;
+			y = 1664;
 			break;
 	}
 //view_camera[0].x = x-333
