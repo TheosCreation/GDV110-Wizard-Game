@@ -121,6 +121,10 @@ if(SwitchLevels){
 			x = 2368;
 			y = 128;
 			break;
+			case Level9:
+			x = 192;
+			y = 128;
+			break;
 	}
 //view_camera[0].x = x-333
 //view_camera[0].y = y-222
