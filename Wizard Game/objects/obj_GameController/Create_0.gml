@@ -4,10 +4,10 @@ CameraSpeed = 7;
 
 camera_destroy(view_camera[0]);
 view_camera[0] = camera_create_view(obj_Player.x -333, obj_Player.y - 222, 640, 480, 0, obj_Player, CameraSpeed, CameraSpeed, 1920, 1080);
-
+camera_set_view_pos(view_camera[0],obj_Player.x,obj_Player.y);
 global.CanMove = true;
 global.TileType = 0;
-global.EnemyArray = [obj_MagmaSnail,obj_VineRose,obj_WaterTurtle]
+global.EnemyArray = [obj_MagmaSnail,obj_VineRose,obj_WaterTurtle,obj_Tornado]
 //all enemies go here
 enum states {
 	idle,
