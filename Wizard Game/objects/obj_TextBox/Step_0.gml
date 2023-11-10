@@ -21,11 +21,13 @@ if(WandText){
 	
 	}
 	if(WandItem.Deny){
-		instance_destroy(WandItem.id);
+		//instance_destroy(WandItem.id);
 		instance_destroy(DenyButton);
 		instance_destroy(ConfirmButton);
+		WandItem.Deny = false;
+		WandItem.Confirmed = false;
+		WandText = false;
 		global.GameFroze = false;
-		instance_destroy();
 	}
 }
 else{
@@ -35,7 +37,7 @@ text = "Would you like this spell?";
 //	string("Attack slots: {0}\nDefence slots: {1}\nUtility slots: {2}",
 //	string(WandItem.AttackSlots), string(WandItem.DefenceSlots) , 
 //string(WandItem.UtilitySlots));
-	if(WandItem.Confirm && !Confirmed){
+	if(WandItem.Confirm){
 		//obj_Wand.EquippedSpells[obj_Wand.SpellCount] = WandItem.SelectedSpell;
 		obj_Inventory.itemArray[obj_Inventory.CurrentInventorySlot] = WandItem.CurrentSpellSprite;
 		obj_Inventory.itemArrayObj[obj_Inventory.CurrentInventorySlot] = WandItem.SelectedSpell;
@@ -51,10 +53,12 @@ text = "Would you like this spell?";
 	
 	}
 	if(WandItem.Deny){
-		instance_destroy(WandItem.id);
+		//instance_destroy(WandItem.id);
 		instance_destroy(DenyButton);
 		instance_destroy(ConfirmButton);
 		global.GameFroze = false;
+		WandItem.Deny = false;
+		WandItem.Confirmed = false;
 		instance_destroy();
 	}
 }

@@ -1,10 +1,10 @@
-
-
 //drawing of the health
 Health_index += (10/60)
 if (floor(Health_index) >= 13) {
 	Health_index = 0
 }
+// Door Direction
+Direction = point_direction(x,y,obj_Door.x,obj_Door.y)
 if(teleport){
 	sprite_index = spr_Teleport;
 	
@@ -126,6 +126,8 @@ if(SwitchLevels){
 //view_camera[0].y = y-222
 xPos = x div tile_width;
 yPos = y div tile_height;
+
+obj_Door.DoorOpen = false;
 
 previousTileX = xPos;
 previousTileY = yPos;
