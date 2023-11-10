@@ -17,7 +17,9 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53791ED3","properties":[],"isDnd":false,"objectId":{"name":"obj_deathScreen","path":"objects/obj_deathScreen/obj_deathScreen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":7.5,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53791ED3","properties":[],"isDnd":false,"objectId":{"name":"obj_deathScreen","path":"objects/obj_deathScreen/obj_deathScreen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":18.0,"scaleY":16.8,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":737.0,"y":209.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D153F80","properties":[],"isDnd":false,"objectId":{"name":"obj_ButtonReturnMenu","path":"objects/obj_ButtonReturnMenu/obj_ButtonReturnMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":1693.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_531BCD72","properties":[],"isDnd":false,"objectId":{"name":"obj_ButtonPlayAgain","path":"objects/obj_ButtonPlayAgain/obj_ButtonPlayAgain.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":1483.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
@@ -26,13 +28,15 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_53791ED3","path":"rooms/DeathScreen/DeathScreen.yy",},
+    {"name":"inst_6D153F80","path":"rooms/DeathScreen/DeathScreen.yy",},
+    {"name":"inst_531BCD72","path":"rooms/DeathScreen/DeathScreen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
-    "Width": 1366,
-    "Height": 768,
+    "Width": 2560,
+    "Height": 1920,
     "persistent": false,
   },
   "viewSettings": {

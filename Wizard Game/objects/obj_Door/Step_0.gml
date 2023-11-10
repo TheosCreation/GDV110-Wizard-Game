@@ -37,5 +37,7 @@ if((place_meeting(x,y,obj_Player) && DoorOpen) || keyboard_check_pressed(ord("P"
 			room = Win;
 			break;
 	}
-	obj_Player.SwitchLevels = true;
+	if(instance_exists(obj_Player)){	
+		obj_Player.SwitchLevels = true;
+	}
 }
