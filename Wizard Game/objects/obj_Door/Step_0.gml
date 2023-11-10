@@ -1,5 +1,6 @@
 if(!layer_has_instance("Instances", obj_VineRose)
-&&!layer_has_instance("Instances", obj_MagmaSnail)){
+&&!layer_has_instance("Instances", obj_MagmaSnail)
+&&!layer_has_instance("Instances", obj_WaterAttack)){
 	DoorOpen = true;
 }
 if((place_meeting(x,y,obj_Player) && DoorOpen) || keyboard_check_pressed(ord("P"))) {

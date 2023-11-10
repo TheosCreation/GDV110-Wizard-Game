@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Vine",
+  "name": "obj_WaterTurtle",
   "spriteId": {
-    "name": "spr_VineWarning",
-    "path": "sprites/spr_VineWarning/spr_VineWarning.yy",
+    "name": "spr_WaterTurtle",
+    "path": "sprites/spr_WaterTurtle/spr_WaterTurtle.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,12 +27,14 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "EnemyAttacks",
-    "path": "folders/Objects/Physical stuff/Enemies/EnemyAttacks.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Physical stuff/Enemies.yy",
   },
 }
