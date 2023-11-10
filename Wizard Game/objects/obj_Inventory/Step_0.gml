@@ -1,5 +1,9 @@
-x = obj_Player.x;
-y = obj_Player.y;
+
+//y = view_yport[0]+ view_hport[0] /2
+//x = view_xport[0]+ view_wport[0]/2
+
+x=camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0])/2
+y=camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])/2
 
 if(keyboard_check_pressed(ord("E"))){
 	if(InventoryOn){
@@ -36,8 +40,7 @@ if(InventoryOn && !InvSummoned ){
 			//draw_sprite(spr_InventorySlot, -1, x+(j*64)-(RowLength*32),y+(i*64)-96);
 			var inst = inventory[(i*RowLength)+j];
 
-			inventory[(i*RowLength)+j]._x = x+(j*64)-(RowLength*32);
-			inventory[(i*RowLength)+j]._y = y+(i*64)-96;
+			
 			
 			inst.CurrentItem = itemArray[(i*RowLength)+j];
 			inst.CurrentItemObj = itemArrayObj[(i*RowLength)+j];
@@ -47,6 +50,14 @@ if(InventoryOn && !InvSummoned ){
 	}
 	InvSummoned = true;
 
+}
+if(InventoryOn){
+	for(var i = 0; i < inventory_slots/RowLength; i++){
+		for(var j = 0; j < RowLength; j++){
+		inventory[(i*RowLength)+j]._x = x+(j*64)-(RowLength*32);
+		inventory[(i*RowLength)+j]._y = y+(i*64)-96;
+		}
+	}
 }
 else if (!InventoryOn){
 		

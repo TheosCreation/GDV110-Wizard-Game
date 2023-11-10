@@ -1,7 +1,8 @@
 
 BulletSpeed = 5;
-TileXPos = (obj_Pointer.x)+(sign(obj_Pointer.x)*10);
-TileYPos = (obj_Pointer.y)+(sign(obj_Pointer.y)*10);
+TileXPos = (obj_Player.x+((obj_Pointer.x+32-obj_Player.x)/(obj_Pointer.x+32)*1000)*64)
+TileYPos = (obj_Player.y+((obj_Pointer.y+32-obj_Player.y)/(obj_Pointer.x+32)*1000)*64)
+
 //update mouse pos to tile pos
 originalX = x;
 originalY = y;
