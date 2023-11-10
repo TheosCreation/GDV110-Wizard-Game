@@ -1,5 +1,5 @@
 
-direction = point_direction(originalX,originalY,TileXPos+ShootAngle,TileYPos+ ShootAngle);
+direction = point_direction(originalX,originalY,TileXPos,TileYPos)+ShootAngle;
 speed = BulletSpeed;
 image_angle = direction;
 
@@ -18,7 +18,7 @@ for(var i = 0; i < array_length(global.EnemyArray); i++){
 	    for (var j = 0; j < num; ++j;)
 	    {
 			if(!CollisionList[| j].Invulnerable){
-				CollisionList[| j].Health--;
+				CollisionList[| j].Health-=25;
 				instance_destroy();
 			}
 	    }

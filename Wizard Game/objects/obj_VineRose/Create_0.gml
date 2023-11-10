@@ -1,4 +1,8 @@
 Knockback  = false;
+FirstKnockback = true;
+oldFlyX = x;
+oldFlyY = y;
+
 Attacked = false;
 Moved = false;
 Moving = false;
@@ -15,7 +19,7 @@ yPos = y div tile_height;
 walk_anim_time = 6;
 walk_anim_length = 0;
 
-Health = 3;
+Health = 200;
 OldHealth = Health;
 Invulnerable = false;
 InvulnerableTimer =10;

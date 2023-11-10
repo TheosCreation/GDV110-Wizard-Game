@@ -102,24 +102,24 @@ if(SwitchLevels){
 			y = 256;
 			break;
 		case Level4:
-			x = 320;
-			y = 256;
+			x = 704;
+			y = 320;
 			break;
 		case Level5:
 			x = 320;
 			y = 256;
 			break;
 		case Level6:
-			x = 1344;
-			y = 960;
+			x = 256;
+			y = 256;
 			break;
 		case Level7:
-			x = 256;
+			x = 320;
 			y = 192;
 			break;
 		case Level8:
-			x = 2176;
-			y = 1664;
+			x = 2368;
+			y = 128;
 			break;
 	}
 //view_camera[0].x = x-333

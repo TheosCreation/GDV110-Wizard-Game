@@ -16,9 +16,18 @@ if(Knockback){
 			FirstKnockback = false;
 		}
 		t += 0.2;
+		var FlownToPosX = xPos+sign(DistanceX)*(tile_width*1);
+		var FlownToPosY = yPos+sign(DistanceY)*(tile_height*1);
 		
-		x = lerp(oldFlyX, xPos+sign(DistanceX)*(tile_width*1), t);
-		y = lerp(oldFlyY, yPos+sign(DistanceY)*(tile_height*1), t);
+		if!(tilemap_get(global.tile_map, FlownToPosX/tile_width, FlownToPosY/tile_width)){		
+			x = lerp(oldFlyX,FlownToPosX , t);
+			y = lerp(oldFlyY,FlownToPosY, t);
+		}
+		else{
+			//lil shake
+			x+=(t-0.6)*32;
+			//y+=(t-0.5)*32;
+		}
 		
 		if(t >= 1) {
 			t = 0;

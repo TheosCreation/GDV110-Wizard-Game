@@ -1,7 +1,7 @@
 
-if(place_meeting(x,y,obj_Player) && 
+if((place_meeting(x,y,obj_Player) && 
 !layer_has_instance("Instances", obj_VineRose)
-&&!layer_has_instance("Instances", obj_MagmaSnail)) {
+&&!layer_has_instance("Instances", obj_MagmaSnail)) or keyboard_check_pressed(ord("P"))) {
 
 	switch(room){
 		case Tutorial:

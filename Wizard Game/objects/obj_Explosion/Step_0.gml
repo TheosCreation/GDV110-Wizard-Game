@@ -13,7 +13,7 @@ for(var i = 0; i < array_length(global.EnemyArray); i++){
 	    {
 			if(!CollisionList[| j].Invulnerable){
 				CollisionList[| j].Invulnerable = true;
-				CollisionList[| j].Health--;
+				CollisionList[| j].Health-=34;
 			}
 	    }
 
