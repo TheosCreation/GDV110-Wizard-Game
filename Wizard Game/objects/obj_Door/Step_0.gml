@@ -30,6 +30,9 @@ if((place_meeting(x,y,obj_Player) && DoorOpen) || keyboard_check_pressed(ord("P"
 			room = Level8;
 			break;
 		case Level8:
+			room = Level9;
+			break;
+		case Level9:
 		instance_destroy(obj_Wand);
 			instance_destroy(obj_Inventory);
 			instance_destroy(obj_InventorySlot);
