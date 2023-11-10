@@ -10,7 +10,7 @@ oldFlyX = x;
 oldFlyY = y;
 MoveCountdown = 10;
 EnemyViewRange = 448;
-EnemyAttackRange = 129;
+EnemyAttackRange = 65;
 
 xPos = x div tile_width;
 yPos = y div tile_height;
