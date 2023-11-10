@@ -80,7 +80,7 @@ if(OldHealth > Health){
 }
 
 if(Health <= 0){
-	room_goto(MainScreen);
+	room_goto(DeathScreen);
 	instance_destroy(obj_Wand);
 	instance_destroy(obj_Inventory);
 	instance_destroy(obj_InventorySlot);
