@@ -5,7 +5,7 @@ if(Health <= 0){
 	DistanceY = abs(y-instance_find(obj_Player,0).y);
 
 	PlayerInRange = (DistanceX <= EnemyViewRange and DistanceY <= EnemyViewRange )? true : false; 
-	PlayerInAttackRange = (DistanceX <= EnemyAttackRange and DistanceY <= EnemyAttackRange )? true : false; 
+	
 if(Knockback){
 	path_end();
 		if(FirstKnockback){
@@ -38,49 +38,29 @@ if(Knockback){
 else{
 	var x_cell = obj_Player.x;
 	var y_cell = obj_Player.y;
+	
 
 	// checks if player is in range
 	if(global.CanMove){
 		Moved = false;
-		Attacked = false;
+	
 	}
-	 if(!global.CanMove && PlayerInRange && !global.GameFroze && !PlayerInAttackRange && !Moved && MoveCooldown > 0){
+	 if(!global.CanMove && PlayerInRange && !global.GameFroze && !Moved && MoveCooldown > 0){
 		MoveCooldown--;
 		Moved = true;
 	}
-	 if(!global.CanMove && PlayerInRange && !global.GameFroze && PlayerInAttackRange && !Attacked && AttackCooldown > 0){
-		AttackCooldown--;
-		Attacked = true;
-		
-	}
-	
-	if(!global.CanMove && PlayerInRange && !global.GameFroze && !PlayerInAttackRange && !Moved && MoveCooldown <= 0) {
+
+	if(!global.CanMove && PlayerInRange && !global.GameFroze && !Moved && MoveCooldown <=0) {
 	
 		mp_grid_path(global.grid, path, OldX+32, OldY+32, x_cell, y_cell, false);
 	    Moved = true;
 	//	instance_create_layer(x,y,"Instances",obj_FireFloor);
 		path_start(path, MoveSpeed, path_action_stop, false);
 
-		MoveCooldown = 2;
-	}
-	
-	else if(!global.CanMove &&!global.GameFroze && PlayerInAttackRange && !Moved&&!Attacked&& AttackCooldown <= 0) {
-		path_end();
-		y = (round((y)/tile_width)*tile_width);
-		x = (round((x)/tile_width)*tile_width);
-		OldX = x;
-	    OldY = y;
-		AttackCooldown = 2;
-		//attack player here
-		for(var a = 0; a <18; a++){
-			var spe = instance_create_layer(x+32,y+32,"Instances",obj_WaterAttack);	
-			spe.ShootAngle=(a*20)
-		}
-		//determine attack side then attack
-		Attacked = true;
-		//slash.image_angle = 90;
 	
 	}
+	
+	
 	else if(abs(x+y) >= abs(OldX+OldY+64)|| abs(x+y) <= abs(OldX+OldY-64)){
 	    path_end();
 		y = (round((y)/tile_width)*tile_width);
@@ -95,6 +75,7 @@ else{
 
 	}
 }
+
 //take damage code invul frames and stuff
 if(OldHealth > Health){
     OldHealth = Health

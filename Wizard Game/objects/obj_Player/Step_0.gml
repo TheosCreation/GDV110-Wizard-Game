@@ -126,6 +126,7 @@ if(SwitchLevels){
 			y = 160;
 			break;
 	}
+	camera_set_view_pos(view_camera[0],x-333,y-222);
 //view_camera[0].x = x-333
 //view_camera[0].y = y-222
 xPos = x div tile_width;
