@@ -31,7 +31,7 @@ OldHealth = Health;
 MaxHealth = Health;
 Health_index = 0;
 t = 0;
-
+camera_set_view_pos(view_camera[0],x-333,y-222)
 Direction = 0;
 
 //////////////////////////////////////////////////////////////////////

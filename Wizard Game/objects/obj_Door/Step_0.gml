@@ -1,6 +1,7 @@
 if(!layer_has_instance("Instances", obj_VineRose)
 &&!layer_has_instance("Instances", obj_MagmaSnail)
-&&!layer_has_instance("Instances", obj_WaterAttack)){
+&&!layer_has_instance("Instances", obj_WaterTurtle)
+&&!layer_has_instance("Instances", obj_Tornado)){
 	DoorOpen = true;
 }
 if((place_meeting(x,y,obj_Player) && DoorOpen) || keyboard_check_pressed(ord("P"))) {
@@ -33,7 +34,7 @@ if((place_meeting(x,y,obj_Player) && DoorOpen) || keyboard_check_pressed(ord("P"
 			room = Level9;
 			break;
 		case Level9:
-		instance_destroy(obj_Wand);
+			instance_destroy(obj_Wand);
 			instance_destroy(obj_Inventory);
 			instance_destroy(obj_InventorySlot);
 			instance_destroy(obj_Player);
