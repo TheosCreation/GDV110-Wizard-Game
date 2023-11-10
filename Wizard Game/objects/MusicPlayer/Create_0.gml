@@ -1,4 +1,4 @@
-/*if(room == MainScreen){
+if(room == MainScreen){
 	audio_stop_all();
 }
 if(room == Tutorial){
@@ -15,4 +15,4 @@ if(room == Level5){
 if(room == Level7){
 	audio_stop_all();
 	audio_play_sound(water,100,true);
-}*/
+}
