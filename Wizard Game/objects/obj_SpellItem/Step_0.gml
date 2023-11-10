@@ -5,4 +5,6 @@ if(obj_Player.xPos = TileX && obj_Player.yPos = TileY&&!CreatedText){
 	txt.WandText = false;
 	txt.WandItem = self;
 	CreatedText = true;
+	
+	
 }

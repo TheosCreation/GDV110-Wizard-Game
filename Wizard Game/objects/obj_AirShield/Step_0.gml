@@ -11,6 +11,6 @@ else{
  countdown = true;
 }
 if(count<=0){
-	obj_Player.Defense-=1;
+	obj_Player.Defense-=2;
 	instance_destroy();
 }

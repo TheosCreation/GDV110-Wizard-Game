@@ -22,7 +22,7 @@ for(var i = 0; i < inventory_slots/RowLength; i++){
 				
 	}
 }
-
+Open = false;
 AddSpell =  false;
 ActiveSlot = 0;
 SpellToAdd = noone;

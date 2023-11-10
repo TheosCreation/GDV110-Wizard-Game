@@ -1,5 +1,5 @@
 
-BulletSpeed = 5;
+BulletSpeed = 7;
 TileXPos = (obj_Player.x+((obj_Pointer.x+32-obj_Player.x)/(obj_Pointer.x+32)*1000)*64)
 TileYPos = (obj_Player.y+((obj_Pointer.y+32-obj_Player.y)/(obj_Pointer.x+32)*1000)*64)
 

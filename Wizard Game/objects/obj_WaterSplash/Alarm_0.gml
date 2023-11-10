@@ -1,5 +1,5 @@
 BulletSpeed = 0;
-if(count <5){
+if(count <4){
 	 var spe = instance_create_layer(x,y,"Instances",obj_WaterSplash);
 	 spe.count = count+1;
 	 spe.ShootAngle=(count*10)

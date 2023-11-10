@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Physical stuff",
-    "path": "folders/Objects/Physical stuff.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
 }

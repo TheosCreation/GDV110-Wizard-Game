@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_SpellItem",
   "spriteId": {
-    "name": "spr_Pedestal",
-    "path": "sprites/spr_Pedestal/spr_Pedestal.yy",
+    "name": "spr_SpellPedestal",
+    "path": "sprites/spr_SpellPedestal/spr_SpellPedestal.yy",
   },
   "solid": false,
   "visible": true,

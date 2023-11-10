@@ -2,6 +2,7 @@ if(room == MainScreen){
 	audio_stop_all();
 }
 if(room == Tutorial){
+	audio_stop_all();
 	audio_play_sound(fire,100,true);
 }
 if(room == Level3){

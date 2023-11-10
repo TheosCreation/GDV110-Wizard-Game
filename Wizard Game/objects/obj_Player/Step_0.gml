@@ -144,7 +144,12 @@ tile_layer = layer_get_id("Walls");
 tile_map = layer_tilemap_get_id(tile_layer);
 Shot = false;
 
-	SwitchLevels = false;
+	
+Health = 50;
+OldHealth = Health;
+MaxHealth = Health;
+Health_index = 0;
+SwitchLevels = false;
 }
 /*	
 if (right == 1 and global.CanMove == true) {

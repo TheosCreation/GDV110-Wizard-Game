@@ -31,7 +31,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_120F957F","properties":[],"isDnd":false,"objectId":{"name":"obj_WaterTurtle","path":"objects/obj_WaterTurtle/obj_WaterTurtle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":1216.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_364A9E56","properties":[],"isDnd":false,"objectId":{"name":"obj_WandItem","path":"objects/obj_WandItem/obj_WandItem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":896.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76F39A3C","properties":[],"isDnd":false,"objectId":{"name":"obj_SpellItem","path":"objects/obj_SpellItem/obj_SpellItem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2048.0,"y":1536.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27FB1089","properties":[],"isDnd":false,"objectId":{"name":"obj_SpellItem","path":"objects/obj_SpellItem/obj_SpellItem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44AC931E","properties":[],"isDnd":false,"objectId":{"name":"obj_SpellItem","path":"objects/obj_SpellItem/obj_SpellItem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1600.0,"y":1152.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Pointer","instances":[
@@ -87,7 +86,6 @@
     {"name":"inst_120F957F","path":"rooms/Level5/Level5.yy",},
     {"name":"inst_364A9E56","path":"rooms/Level5/Level5.yy",},
     {"name":"inst_76F39A3C","path":"rooms/Level5/Level5.yy",},
-    {"name":"inst_27FB1089","path":"rooms/Level5/Level5.yy",},
     {"name":"inst_44AC931E","path":"rooms/Level5/Level5.yy",},
   ],
   "inheritCreationOrder": false,

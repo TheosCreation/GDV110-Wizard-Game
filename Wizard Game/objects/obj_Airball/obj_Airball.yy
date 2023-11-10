@@ -32,6 +32,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Spells",
-    "path": "folders/Objects/Physical stuff/Instantiatable/Spells.yy",
+    "path": "folders/Objects/Physical stuff/Spells.yy",
   },
 }

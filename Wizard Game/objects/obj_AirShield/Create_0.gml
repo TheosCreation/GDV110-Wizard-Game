@@ -1,3 +1,3 @@
-count = 2;
+count = 3;
 countdown = true;
-obj_Player.Defense+=1;
+obj_Player.Defense+=2;

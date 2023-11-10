@@ -5,7 +5,7 @@
 x=camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0])/2
 y=camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])/2
 
-if(keyboard_check_pressed(ord("E"))){
+if(keyboard_check_pressed(ord("E"))||Open){
 	if(InventoryOn){
 		global.GameFroze = false;
 		InventoryOn = false;
@@ -14,7 +14,9 @@ if(keyboard_check_pressed(ord("E"))){
 		global.GameFroze = true;
 		InventoryOn = true;
 	}
+	Open = false;
 }
+
 if(UpdateSelection){
 	obj_Wand.EquippedSpells = array_create(inventory_slots,-1);
 	obj_Wand.SpellCount = 0;
