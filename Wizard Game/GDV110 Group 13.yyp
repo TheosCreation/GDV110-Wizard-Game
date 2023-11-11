@@ -124,7 +124,6 @@
     {"id":{"name":"scr_Tiles","path":"scripts/scr_Tiles/scr_Tiles.yy",},"order":1,},
     {"id":{"name":"obj_Room4","path":"objects/obj_Room4/obj_Room4.yy",},"order":3,},
     {"id":{"name":"obj_Tornado","path":"objects/obj_Tornado/obj_Tornado.yy",},"order":4,},
-    {"id":{"name":"WinScreen","path":"objects/WinScreen/WinScreen.yy",},"order":11,},
     {"id":{"name":"scr_Move","path":"scripts/scr_Move/scr_Move.yy",},"order":0,},
     {"id":{"name":"DeathScreen","path":"rooms/DeathScreen/DeathScreen.yy",},"order":13,},
     {"id":{"name":"spr_Tornado","path":"sprites/spr_Tornado/spr_Tornado.yy",},"order":46,},
