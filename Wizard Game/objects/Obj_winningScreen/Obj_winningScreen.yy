@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_winningScreen",
+  "name": "obj_winningScreen",
   "spriteId": {
     "name": "spr_WinScreen",
     "path": "sprites/spr_WinScreen/spr_WinScreen.yy",

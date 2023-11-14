@@ -1,2 +1,2 @@
 
-room_goto(Tutorial)
+room_goto(Intro)

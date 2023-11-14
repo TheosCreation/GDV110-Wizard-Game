@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_Intro",
+  "name": "obj_Intro",
   "spriteId": {
     "name": "inroWords",
     "path": "sprites/inroWords/inroWords.yy",

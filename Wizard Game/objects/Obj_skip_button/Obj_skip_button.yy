@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_skip_button",
+  "name": "obj_skip_button",
   "spriteId": {
     "name": "spr_skipbutton",
     "path": "sprites/spr_skipbutton/spr_skipbutton.yy",
