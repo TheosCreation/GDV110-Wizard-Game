@@ -80,6 +80,7 @@
     {"id":{"name":"obj_Cow","path":"objects/obj_Cow/obj_Cow.yy",},"order":5,},
     {"id":{"name":"spr_WindKnockback","path":"sprites/spr_WindKnockback/spr_WindKnockback.yy",},"order":9,},
     {"id":{"name":"spr_FireWand","path":"sprites/spr_FireWand/spr_FireWand.yy",},"order":2,},
+    {"id":{"name":"spr_Tutel_Attack","path":"sprites/spr_Tutel_Attack/spr_Tutel_Attack.yy",},"order":53,},
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":4,},
     {"id":{"name":"obj_Airball","path":"objects/obj_Airball/obj_Airball.yy",},"order":8,},
     {"id":{"name":"spr_AirShield","path":"sprites/spr_AirShield/spr_AirShield.yy",},"order":0,},

@@ -50,7 +50,7 @@
     "name": "spr_WaterSplash",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 16.0,
+    "playbackSpeed": 32.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

@@ -1,7 +1,7 @@
 
 direction = ShootAngle;
 speed = BulletSpeed;
-image_angle = direction+90;
+image_angle = direction;
 
 
 if(place_meeting(x,y,obj_Player)&&!obj_Player.Invulnerable){

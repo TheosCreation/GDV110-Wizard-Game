@@ -8,6 +8,7 @@ if(selected&&UpdateSelection){
 	obj_Inventory.PlaceInSelectedList++;
 	UpdateSelection = false;
 	obj_Inventory.UpdateSelection = true;
+	
 }
 else if(!selected&&!UpdateSelection){
 	obj_Inventory.SelectedInventoryList[Slot] = noone;

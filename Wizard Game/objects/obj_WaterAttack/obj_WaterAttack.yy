@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_WaterAttack",
   "spriteId": {
-    "name": "spr_WaterAttack",
-    "path": "sprites/spr_WaterAttack/spr_WaterAttack.yy",
+    "name": "spr_Tutel_Attack",
+    "path": "sprites/spr_Tutel_Attack/spr_Tutel_Attack.yy",
   },
   "solid": false,
   "visible": true,
