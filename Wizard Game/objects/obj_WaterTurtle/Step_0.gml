@@ -1,4 +1,5 @@
-if(Health <= 0){
+if(!dead){
+	if(Health <= 0){
     scr_Die();
 }
 	DistanceX =abs( x- instance_find(obj_Player,0).x);
@@ -48,14 +49,14 @@ else{
 		MoveCooldown--;
 		Moved = true;
 		if(DOT){
-			Health-=10;
+			Health-=5;DOT = (random_range(0,100)>20)
 		}
 	}
 	 if(!global.CanMove && PlayerInRange && !global.GameFroze && PlayerInAttackRange && !Attacked && AttackCooldown > 0){
 		AttackCooldown--;
 		Attacked = true;
 			if(DOT){
-			Health-=10;
+			Health-=5;DOT = (random_range(0,100)>20)
 		}
 		
 	}
@@ -65,7 +66,7 @@ else{
 		mp_grid_path(global.grid, path, OldX+32, OldY+32, x_cell, y_cell, false);
 	    Moved = true;
 			if(DOT){
-			Health-=10;
+			Health-=5;DOT = (random_range(0,100)>20)
 		}
 	//	instance_create_layer(x,y,"Instances",obj_FireFloor);
 		path_start(path, MoveSpeed, path_action_stop, false);
@@ -109,4 +110,9 @@ if(OldHealth > Health){
     OldHealth = Health
     alarm[1] = InvulnerableTimer;
     image_blend = c_aqua;
+}}
+else if(!died){
+	died = true;
+	path_end();
+sprite_index = spr_DeathTutel_strip;
 }

@@ -25,7 +25,7 @@ InvulnerableTimer =10;
 
 PlayerInRange = false;
 EnemyColor = c_red;
-
+died = false;
 NextMove = "";
 NextMoveWall = false;
 t = 0;
@@ -38,3 +38,5 @@ OldY = y;
 path = path_add();
 
 Knockback = false;
+
+dead = false;

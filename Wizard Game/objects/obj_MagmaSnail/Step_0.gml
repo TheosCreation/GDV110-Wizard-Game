@@ -1,3 +1,4 @@
+if(!dead){
 DistanceX = abs(abs(x+32)- abs(obj_Player.x));
 DistanceY = abs(abs(y+32)- abs(obj_Player.y));
 
@@ -52,7 +53,8 @@ else{
 		instance_create_layer(x,y,"Instances",obj_FireFloor);
 		path_start(path, MoveSpeed, path_action_stop, false);
 			if(DOT){
-			Health-=10;
+			Health-=5;
+			DOT = (random_range(0,100)>20)
 		}
 	
 	
@@ -65,7 +67,8 @@ else{
 	    OldY = y;
 		//attack player here
 	if(DOT){
-			Health-=10;
+			Health-=5;
+			DOT = (random_range(0,100)>20)
 		}
 		var slash = instance_create_layer(x+32,y+32,"Instances", obj_Slash);
 		slash.image_blend = EnemyColor;
@@ -93,4 +96,11 @@ else{
 	    alarm[1] = InvulnerableTimer;
 	    image_blend = c_aqua;
 	}
+}}
+else if(!died){
+
+	died = true;
+path_end();
+sprite_index = spr_DeathSnail_strip;
+	image_index = 0;
 }

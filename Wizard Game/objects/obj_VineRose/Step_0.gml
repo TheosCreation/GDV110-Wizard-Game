@@ -1,3 +1,4 @@
+if(!dead){
 if(Health <= 0){
     scr_Die();
 }
@@ -46,7 +47,7 @@ else{
 	}
 	if(!global.CanMove && PlayerInRange && !global.GameFroze && !PlayerInAttackRange && !Moved && MoveCooldown <= 0) {
 		if(DOT){
-			Health-=10;
+			Health-=5;DOT = (random_range(0,100)>20)
 		}
 		mp_grid_path(global.grid, path, OldX+32, OldY+32, x_cell, y_cell, false);
 	    Moved = true;
@@ -59,7 +60,7 @@ else{
 		MoveCooldown--;
 		Moved = true;
 			if(DOT){
-			Health-=10;
+			Health-=5;DOT = (random_range(0,100)>20)
 		}
 	}
 	else if(!global.CanMove &&!global.GameFroze && PlayerInAttackRange && !Moved&&!Attacked) {
@@ -70,7 +71,7 @@ else{
 	    OldY = y;
 		//attack player here
 		if(DOT){
-			Health-=10;
+			Health-=5;DOT = (random_range(0,100)>20)
 		}
 		var slash = instance_create_layer(x+32,y+32,"Instances", obj_Vine);
 		slash.image_blend = EnemyColor;
@@ -98,4 +99,10 @@ if(OldHealth > Health){
     OldHealth = Health
     alarm[1] = InvulnerableTimer;
     image_blend = c_aqua;
+}
+}
+else if(!died){
+	died = true;
+	path_end();
+sprite_index = spr_DeathFae_strip;
 }

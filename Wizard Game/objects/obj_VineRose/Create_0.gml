@@ -1,14 +1,15 @@
+
 Knockback  = false;
 FirstKnockback = true;
 oldFlyX = x;
 oldFlyY = y;
-DOT = false;
+DOT = false;dead = false;
 Attacked = false;
 Moved = false;
 Moving = false;
 MoveSpeed = 4;
 MoveCount = 0;
-
+died = false;
 MoveCooldown = 1;
 EnemyViewRange = 448;
 EnemyAttackRange = 192;

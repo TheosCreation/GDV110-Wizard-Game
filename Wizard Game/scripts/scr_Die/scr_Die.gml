@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_Die(){
-	instance_destroy();
+	//instance_destroy();
+	dead = true;
 	//put this in a script so we can edit stuff in future nicerly
 }
