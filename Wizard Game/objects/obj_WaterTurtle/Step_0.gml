@@ -47,10 +47,16 @@ else{
 	 if(!global.CanMove && PlayerInRange && !global.GameFroze && !PlayerInAttackRange && !Moved && MoveCooldown > 0){
 		MoveCooldown--;
 		Moved = true;
+		if(DOT){
+			Health-=10;
+		}
 	}
 	 if(!global.CanMove && PlayerInRange && !global.GameFroze && PlayerInAttackRange && !Attacked && AttackCooldown > 0){
 		AttackCooldown--;
 		Attacked = true;
+			if(DOT){
+			Health-=10;
+		}
 		
 	}
 	
@@ -58,6 +64,9 @@ else{
 	
 		mp_grid_path(global.grid, path, OldX+32, OldY+32, x_cell, y_cell, false);
 	    Moved = true;
+			if(DOT){
+			Health-=10;
+		}
 	//	instance_create_layer(x,y,"Instances",obj_FireFloor);
 		path_start(path, MoveSpeed, path_action_stop, false);
 

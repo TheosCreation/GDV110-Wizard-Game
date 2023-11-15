@@ -8,7 +8,7 @@ Moved = false;
 Moving = false;
 MoveSpeed = 4;
 MoveCount = 0;
-
+DOT = false;
 MoveCooldown = 2;
 AttackCooldown = 2;
 EnemyViewRange = 448;

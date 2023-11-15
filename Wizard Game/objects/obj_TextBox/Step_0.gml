@@ -3,11 +3,21 @@ if(WandText){
 	
 	TextXOffset = 16;
 	TextYOffset = 64;
-
-	text = 
-	string("Attack slots: {0}\nDefence slots: {1}\nUtility slots: {2}",
-	string(WandItem.AttackSlots), string(WandItem.DefenceSlots) , 
-	string(WandItem.UtilitySlots));
+	switch(WandItem.CurrentWandSprite){
+		case spr_WaterWand:
+		text = "Gain health on hit";
+		break;
+		case spr_AirWand:
+		text = "Randomly summon a gust of wind on hit";
+		break;
+		case spr_FireWand:
+		text = "Do damage over time on hit";
+		break;
+		case spr_EarthWand:
+		text = "Double your max health";
+		break;
+	}
+	
 	if(WandItem.Confirm){
 		obj_Wand.AttackSlots = WandItem.AttackSlots;
 		obj_Wand.DefenceSlots = WandItem.DefenceSlots;
@@ -18,6 +28,13 @@ if(WandText){
 		instance_destroy(ConfirmButton);
 		global.GameFroze = false;
 		instance_destroy();
+		if(obj_Wand.CurrentWandSprite == spr_EarthWand){
+			obj_Player.Health = 100;
+			obj_Player.MaxHealth = obj_Player.Health;
+		}
+		else{
+			obj_Player.MaxHealth = 50;
+		}
 	
 	}
 	if(WandItem.Deny){

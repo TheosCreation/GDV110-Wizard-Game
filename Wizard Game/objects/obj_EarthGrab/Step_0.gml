@@ -14,6 +14,22 @@ for(var i = 0; i < array_length(global.EnemyArray); i++){
 			if(!CollisionList[| j].Invulnerable){
 				CollisionList[| j].Invulnerable = true;
 				CollisionList[| j].Health-=20;
+				switch(obj_Wand.CurrentWandSprite){
+					case spr_FireWand:
+					CollisionList[| j].DOT = true;
+						break;
+					case spr_WaterWand:
+					obj_Player.Health++;
+						break;
+					case spr_AirWand:
+					if(random_range(0,100)<20){
+						 var spe = instance_create_layer(x,y,"Instances",obj_WindKnockback);
+						 spe.ShootAngle=(random_range(0,360));
+					}
+						break;
+					default:
+						break;
+				}
 			}
 	    }
 

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "earth",
+  "name": "Earth",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.05,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "earth.mp3",
-  "duration": 87.66696,
+  "soundFile": "Earth.mp3",
+  "duration": 77.844894,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

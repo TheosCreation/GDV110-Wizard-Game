@@ -45,7 +45,9 @@ else{
 		Attacked = false;
 	}
 	if(!global.CanMove && PlayerInRange && !global.GameFroze && !PlayerInAttackRange && !Moved && MoveCooldown <= 0) {
-	
+		if(DOT){
+			Health-=10;
+		}
 		mp_grid_path(global.grid, path, OldX+32, OldY+32, x_cell, y_cell, false);
 	    Moved = true;
 	//	instance_create_layer(x,y,"Instances",obj_FireFloor);
@@ -56,7 +58,9 @@ else{
 	else if(!global.CanMove && PlayerInRange && !global.GameFroze && !PlayerInAttackRange && !Moved && MoveCooldown > 0){
 		MoveCooldown--;
 		Moved = true;
-
+			if(DOT){
+			Health-=10;
+		}
 	}
 	else if(!global.CanMove &&!global.GameFroze && PlayerInAttackRange && !Moved&&!Attacked) {
 		path_end();
@@ -65,7 +69,9 @@ else{
 		OldX = x;
 	    OldY = y;
 		//attack player here
-
+		if(DOT){
+			Health-=10;
+		}
 		var slash = instance_create_layer(x+32,y+32,"Instances", obj_Vine);
 		slash.image_blend = EnemyColor;
 		//determine attack side then attack

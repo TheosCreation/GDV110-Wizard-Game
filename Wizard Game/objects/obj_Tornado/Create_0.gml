@@ -2,7 +2,7 @@ Knockback  = false;
 FirstKnockback = true;
 oldFlyX = x;
 oldFlyY = y;
-
+DOT = false;
 Attacked = false;
 Moved = false;
 Moving = false;

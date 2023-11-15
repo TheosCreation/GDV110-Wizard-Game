@@ -43,6 +43,7 @@ else{
 	if(global.CanMove){
 		Attacked = false;
 			Moved = false;
+			
 	}
 	if(!global.CanMove && PlayerInRange && !global.GameFroze && !PlayerInAttackRange && !Moved) {
 		Attacked = true
@@ -50,7 +51,9 @@ else{
 	    Moved = true;
 		instance_create_layer(x,y,"Instances",obj_FireFloor);
 		path_start(path, MoveSpeed, path_action_stop, false);
-	
+			if(DOT){
+			Health-=10;
+		}
 	
 	
 	}
@@ -61,7 +64,9 @@ else{
 		OldX = x;
 	    OldY = y;
 		//attack player here
-
+	if(DOT){
+			Health-=10;
+		}
 		var slash = instance_create_layer(x+32,y+32,"Instances", obj_Slash);
 		slash.image_blend = EnemyColor;
 		//determine attack side then attack

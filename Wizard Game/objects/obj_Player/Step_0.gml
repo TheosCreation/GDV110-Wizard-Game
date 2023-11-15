@@ -78,6 +78,9 @@ if(OldHealth > Health){
     alarm[1] = InvulnerableTimer;
     image_blend = c_aqua;
 }
+else if(OldHealth < Health){
+	OldHealth = Health;
+}
 
 if(Health <= 0){
 	room_goto(DeathScreen);
