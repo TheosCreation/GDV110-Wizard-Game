@@ -17,3 +17,7 @@ if(room == Level7){
 	audio_stop_all();
 	audio_play_sound(Wind,100,true);
 }
+if(room == Level9){
+	audio_stop_all();
+	audio_play_sound(Final,100,true);
+}
