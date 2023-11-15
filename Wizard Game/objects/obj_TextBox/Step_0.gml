@@ -1,8 +1,5 @@
 
 if(WandText){
-	
-	TextXOffset = 16;
-	TextYOffset = 64;
 	switch(WandItem.CurrentWandSprite){
 		case spr_WaterWand:
 		text = "Gain health on hit";
@@ -49,13 +46,7 @@ if(WandText){
 }
 else{
 text = "Would you like this spell?";
-	TextXOffset = 32;
-	TextYOffset = 72;
-//	string("Attack slots: {0}\nDefence slots: {1}\nUtility slots: {2}",
-//	string(WandItem.AttackSlots), string(WandItem.DefenceSlots) , 
-//string(WandItem.UtilitySlots));
 	if(WandItem.Confirm){
-		//obj_Wand.EquippedSpells[obj_Wand.SpellCount] = WandItem.SelectedSpell;
 		obj_Inventory.itemArray[obj_Inventory.CurrentInventorySlot] = WandItem.CurrentSpellSprite;
 		obj_Inventory.itemArrayObj[obj_Inventory.CurrentInventorySlot] = WandItem.SelectedSpell;
 		obj_Inventory.CurrentInventorySlot++;
@@ -74,7 +65,6 @@ text = "Would you like this spell?";
 		instance_destroy(DenyButton);
 		instance_destroy(ConfirmButton);
 		global.GameFroze = false;
-		//WandItem.Deny = false;
 		WandItem.Confirmed = false;
 		instance_destroy();
 	}
