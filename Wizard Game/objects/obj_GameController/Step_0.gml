@@ -1,5 +1,9 @@
 
-//if(obj_Player.SwitchLevels){
-//camera_destroy(view_camera[0]);
-//view_camera[0] = camera_create_view(obj_Player.x, obj_Player.y, 640, 480, 0, obj_Player, CameraSpeed, CameraSpeed, 1920, 1080);	
-//}
+if(keyboard_check_pressed(ord("F"))) {
+	if(!window_get_fullscreen()){
+		window_set_fullscreen(true);
+	}
+	else{
+		window_set_fullscreen(false);
+	}
+}
