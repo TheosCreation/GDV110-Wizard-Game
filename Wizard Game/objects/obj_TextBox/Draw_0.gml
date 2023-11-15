@@ -3,5 +3,3 @@
 
 
 
-draw_sprite(spr_TextBox, 0, WandItem.x-64,WandItem.y+32);
-draw_text(WandItem.x-TextXOffset,WandItem.y+TextYOffset, text);
