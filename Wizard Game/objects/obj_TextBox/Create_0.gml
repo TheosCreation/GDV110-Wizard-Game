@@ -1,6 +1,6 @@
 
-DenyButton = instance_create_layer(x-32,y+160,"Buttons",obj_ButtonConfirm);
-ConfirmButton = instance_create_layer(x+128,y+160,"Buttons",obj_ButtonDeny);
+DenyButton = instance_create_layer(x-30,y+150,"Buttons",obj_ButtonConfirm);
+ConfirmButton = instance_create_layer(x+90,y+150,"Buttons",obj_ButtonDeny);
 
 WandText = false;
 WandItem = self;
