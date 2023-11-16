@@ -1,1 +1,2 @@
-Health = 1000;
+Health = 750;
+MaxHealth = Health;

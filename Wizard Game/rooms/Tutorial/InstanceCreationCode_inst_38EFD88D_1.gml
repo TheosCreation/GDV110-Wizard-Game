@@ -1,1 +1,2 @@
-Health = 75
+Health = 50
+MaxHealth = Health

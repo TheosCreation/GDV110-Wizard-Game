@@ -2,7 +2,7 @@
 if(WandText){
 	switch(WandItem.CurrentWandSprite){
 		case spr_WaterWand:
-		text = "Gain health on hit";
+		text = "Recover Health on hit";
 		break;
 		case spr_AirWand:
 		text = "Randomly summon a gust of wind on hit";
@@ -47,6 +47,7 @@ if(WandText){
 else{
 text = "Would you like this spell?";
 	if(WandItem.Confirm){
+		obj_Inventory.Open = true;
 		obj_Inventory.itemArray[obj_Inventory.CurrentInventorySlot] = WandItem.CurrentSpellSprite;
 		obj_Inventory.itemArrayObj[obj_Inventory.CurrentInventorySlot] = WandItem.SelectedSpell;
 		obj_Inventory.CurrentInventorySlot++;

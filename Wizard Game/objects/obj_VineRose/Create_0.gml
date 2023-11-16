@@ -20,7 +20,8 @@ yPos = y div tile_height;
 walk_anim_time = 6;
 walk_anim_length = 0;
 
-Health = 150;
+Health = 50;
+MaxHealth = Health;
 OldHealth = Health;
 Invulnerable = false;
 InvulnerableTimer =10;

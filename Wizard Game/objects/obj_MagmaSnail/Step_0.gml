@@ -1,9 +1,9 @@
 if(!dead){
-DistanceX = abs(abs(x+32)- abs(obj_Player.x));
-DistanceY = abs(abs(y+32)- abs(obj_Player.y));
+DistanceX = abs(x+32)- abs(obj_Player.x);
+DistanceY = abs(y+32)- abs(obj_Player.y);
 
-PlayerInRange = (DistanceX <= EnemyViewRange and DistanceY <= EnemyViewRange )? true : false; 
-PlayerInAttackRange = (DistanceX <= EnemyAttackRange and DistanceY <= EnemyAttackRange )? true : false; 
+PlayerInRange = (abs(DistanceX) <= EnemyViewRange and abs(DistanceY) <= EnemyViewRange )? true : false; 
+PlayerInAttackRange = (abs(DistanceX) <= EnemyAttackRange and abs(DistanceY) <= EnemyAttackRange )? true : false; 
 
 if(Health <= 0){
     scr_Die();
@@ -18,8 +18,8 @@ if(Knockback){
 			FirstKnockback = false;
 		}
 		t += 0.2;
-		var FlownToPosX = xPos+sign(DistanceX)*(tile_width*1);
-		var FlownToPosY = yPos+sign(DistanceY)*(tile_height*1);
+		var FlownToPosX = xPos+(sign(DistanceX)*tile_width);
+		var FlownToPosY = yPos+(sign(DistanceY)*tile_height);
 		
 		if!(tilemap_get(global.tile_map, FlownToPosX/tile_width, FlownToPosY/tile_width)){		
 			x = lerp(oldFlyX,FlownToPosX , t);

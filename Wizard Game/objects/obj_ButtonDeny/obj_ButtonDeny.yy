@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_ButtonDeny",
   "spriteId": {
-    "name": "spr_Deny",
-    "path": "sprites/spr_Deny/spr_Deny.yy",
+    "name": "spr_ButtonArea",
+    "path": "sprites/spr_ButtonArea/spr_ButtonArea.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,7 +25,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],

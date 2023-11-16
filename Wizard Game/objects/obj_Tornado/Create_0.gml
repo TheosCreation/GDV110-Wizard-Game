@@ -23,6 +23,7 @@ walk_anim_length = 0;
 
 Health = 300;
 OldHealth = Health;
+MaxHealth = Health;
 Invulnerable = false;
 InvulnerableTimer =10;
 

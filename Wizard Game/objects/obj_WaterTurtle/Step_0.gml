@@ -2,10 +2,12 @@ if(!dead){
 	if(Health <= 0){
     scr_Die();
 }
-	DistanceX =abs( x- instance_find(obj_Player,0).x);
-	DistanceY = abs(y-instance_find(obj_Player,0).y);
+DistanceX = abs(x+32)- abs(obj_Player.x);
+DistanceY = abs(y+32)- abs(obj_Player.y);
 
-	PlayerInRange = (DistanceX <= EnemyViewRange and DistanceY <= EnemyViewRange )? true : false; 
+PlayerInRange = (abs(DistanceX) <= EnemyViewRange and abs(DistanceY) <= EnemyViewRange )? true : false; 
+PlayerInAttackRange = (abs(DistanceX) <= EnemyAttackRange and abs(DistanceY) <= EnemyAttackRange )? true : false; 
+
 	PlayerInAttackRange = (DistanceX <= EnemyAttackRange and DistanceY <= EnemyAttackRange )? true : false; 
 if(Knockback){
 	path_end();
