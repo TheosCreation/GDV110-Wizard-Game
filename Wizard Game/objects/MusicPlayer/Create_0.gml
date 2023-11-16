@@ -21,3 +21,4 @@ if(room == Level9){
 	audio_stop_all();
 	audio_play_sound(Final,100,true);
 }
+audio_master_gain(0);

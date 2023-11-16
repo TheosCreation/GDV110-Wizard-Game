@@ -1,4 +1,4 @@
 TileX = x div tile_width;
 TileY = y div tile_width;
-DestroyCountdown = 5;
+DestroyCountdown = 4;
 GoneDown = false;
