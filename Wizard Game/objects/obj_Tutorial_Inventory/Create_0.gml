@@ -1,5 +1,5 @@
 //dialogue
-text[0] = "Press E to open inventory and click to select a spell"
+text[0] = "Press E to toggle inventory"
 
 //variables
 currentDialogueIndex = 0;

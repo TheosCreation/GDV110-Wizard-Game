@@ -116,6 +116,7 @@
     {"id":{"name":"spr_GridGreen","path":"sprites/spr_GridGreen/spr_GridGreen.yy",},"order":0,},
     {"id":{"name":"obj_Explosion","path":"objects/obj_Explosion/obj_Explosion.yy",},"order":5,},
     {"id":{"name":"spr_Empty","path":"sprites/spr_Empty/spr_Empty.yy",},"order":6,},
+    {"id":{"name":"obj_Tutorial_SpellItem","path":"objects/obj_Tutorial_SpellItem/obj_Tutorial_SpellItem.yy",},"order":9,},
     {"id":{"name":"obj_skip_button","path":"objects/obj_skip_button/obj_skip_button.yy",},"order":17,},
     {"id":{"name":"Final","path":"sounds/Final/Final.yy",},"order":7,},
     {"id":{"name":"spr_Fireball","path":"sprites/spr_Fireball/spr_Fireball.yy",},"order":4,},
