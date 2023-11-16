@@ -31,4 +31,4 @@ if textInput != noone
 draw_set_font(fnt_default);
 draw_set_halign(fa_left);
 draw_set_color(c_black);
-draw_text_ext(x-sprite_width/2 +_textOffset,y-sprite_height+_textOffset,string(_dialogue),6,sprite_width-_textOffset);
+draw_text_ext(x-sprite_width/2 +_textOffset,y-sprite_height+_textOffset,string(_dialogue),8,sprite_width-_textOffset);
