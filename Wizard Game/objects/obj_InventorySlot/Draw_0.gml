@@ -4,7 +4,5 @@ if(selected){
 	draw_sprite(spr_GridGreen,-1,x,y);	
 }
 if(warning){
-	alarm[0] = 10;
 	draw_text_colour(x, y, "you can only select 3 spells", c_white, c_white, c_white, c_white, 1);
-	
-}	
+}

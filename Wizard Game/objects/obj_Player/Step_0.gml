@@ -116,8 +116,8 @@ if (SwitchLevels) {
 			y = 224;
 			break;
 		case Level8:
-			x = 2400;
-			y = 160;
+			x = 1440;
+			y = 992;
 			break;
 		case Level9:
 			x = 224;
